@@ -1,0 +1,7 @@
+# ninja log v5
+5	439	7048273659213980	CMakeFiles/NHF_Sportegyesulet.dir/main.cpp.obj	9d7ecdd65bd847f5
+3352	3692	7049025155694813	NHF_Sportegyesulet.exe	c43dddf607ae88a5
+13	794	7048985401100451	CMakeFiles/NHF_Sportegyesulet.dir/Group.cpp.obj	4b6124c3f2e574aa
+40	784	7048985401100451	CMakeFiles/NHF_Sportegyesulet.dir/Groups.cpp.obj	d8be431ce6eea35d
+66	795	7048985401181985	CMakeFiles/NHF_Sportegyesulet.dir/BasketballGroup.cpp.obj	711b049d93444171
+25	793	7048985401120475	CMakeFiles/NHF_Sportegyesulet.dir/FootballGroup.cpp.obj	5b432b346fa2bfc5

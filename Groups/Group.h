@@ -5,7 +5,7 @@
 #ifndef NHF_SPORTEGYESULET_GROUP_H
 #define NHF_SPORTEGYESULET_GROUP_H
 #include <string>
-#include "string.h"
+#include "../string.h"
 
 
 class Group {

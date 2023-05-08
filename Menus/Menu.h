@@ -8,8 +8,6 @@
 #include <iostream>
 #include <map>
 #include <functional>
-#include <utility>
-#include "../List.h"
 #include "../string.h"
 
 class Menu {
@@ -19,14 +17,14 @@ class Menu {
 public:
     Menu(std::map<int, String> p, std::map<int, std::function<void()>> m, int l = 0) :points(std::move(p)), menu(std::move(m)), length(l){}
     void display(){
-        for (int i = 1; i <= menu.size(); ++i) {
-            std::cout << i+1 << ". " << points[i]<<std::endl;
+        for (int i = 1; i <= points.size(); ++i) {
+            std::cout << i << ". " << points[i]<<std::endl;
         }
         int input = 0;
         while (input!=length) {
             std::cin >> input;
-            while(input<=length && input>0){
-                std::cout << "Wrong input";
+            while(input<=length || input>0){
+                std::cout << "Wrong input" << std::endl;
                 std::cin >> input;
             }
             if(input!=length)

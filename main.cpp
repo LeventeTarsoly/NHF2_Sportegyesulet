@@ -3,14 +3,10 @@
 #include <vector>
 #include <bits/stdc++.h>
 #include <functional>
+#include "Menus/Main.h"
+
 using namespace std;
-
-void hey()
-{
-    std::cout <<"Hello";
-
-}
-
+Mainmenu Mainmenu::mainmenu;
 
 int main() {
     std::cout << "  _____   _   _     _       ____                           _              ____   _           _     \n"
@@ -19,13 +15,6 @@ int main() {
                  " |  _|   | | | |_  | |_     ___) | | |_) | | (_) | | |    | |_  \\__ \\   | |___  | | | |_| | | |_) |\n"
                  " |_|     |_|  \\__|  \\__|   |____/  | .__/   \\___/  |_|     \\__| |___/    \\____| |_|  \\__,_| |_.__/ \n"
                  "                                   |_|                                                             " << std::endl;
-
-
-    using MapType = map<int, function<void()>>;
-    MapType asd = {
-        {1, hey}
-    };
-    asd[1]();
-
+    Mainmenu::mainmenu.display();
 }
 

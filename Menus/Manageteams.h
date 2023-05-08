@@ -10,7 +10,6 @@
 #include <map>
 #include <functional>
 #include "../string.h"
-#include "Menu.h"
 #include "Add.h"
 
 using namespace std;
@@ -23,25 +22,6 @@ inline void Modifyteam(){
 inline void Deleteteam(){
     std::cout <<"Hello";
 }
-
-class Manageteamsmenu : public Menu {
-public:
-    Manageteamsmenu()
-            : Menu(
-            {
-                    {1, "Add Team"},
-                    {2, "Modify Teams"},
-                    {3, "Delete Teams"}
-            },
-            {
-                    {1, &Addmenu::displayAddMenu},
-                    {2, Modifyteam},
-                    {3, Deleteteam}
-            },
-            4
-    )
-    {}
-};
 
 
 

@@ -9,7 +9,6 @@
 #include <map>
 #include <functional>
 #include "../string.h"
-#include "Menu.h"
 #include "Add.h"
 #include "Manageteams.h"
 #include "Lists.h"
@@ -21,26 +20,7 @@ inline void BaseData(){
     std::cout <<"Hello";
 }
 
-class Mainmenu : public Menu {
-public:
-    static Mainmenu mainmenu;
-    Mainmenu()
-            : Menu(
-            {
-                    {1, "Manage Teams"},
-                    {2, "Lists"},
-                    {3, "Base Data"},
-                    {4, "Close and Save"}
-            },
-            {
-                    //{1, [](){ Manageteamsmenu::manageteamsmenu.display(); }},
-                    {2, [](){ Listsmenu::listsmenu.display(); }},
-                    {3, BaseData}
-            },
-            4
-    )
-    {}
-};
+
 
 
 #endif //NHF_SPORTEGYESULET_MAIN_H

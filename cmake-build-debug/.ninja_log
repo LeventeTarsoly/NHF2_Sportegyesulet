@@ -3,7 +3,7 @@
 17	763	7052621107453844	CMakeFiles/NHF_Sportegyesulet.dir/Menus/Add.cpp.obj	39cc3847c674a3a1
 21	877	7051980771493331	CMakeFiles/NHF_Sportegyesulet.dir/Groups/HandballGroup.cpp.obj	37627608e751b9a3
 1009	1260	7051980775218079	CMakeFiles/NHF_Sportegyesulet.dir/Menus/Grouplists.cpp.obj	d46a50c7b689aa5a
-5	1966	7052621119466768	CMakeFiles/NHF_Sportegyesulet.dir/main.cpp.obj	d18184feeb2e027d
+7	1861	7052622095783763	CMakeFiles/NHF_Sportegyesulet.dir/main.cpp.obj	d18184feeb2e027d
 2294	2490	7052618834971692	NHF_Sportegyesulet.exe	6ec36cd33f7239c7
 74	933	7051980772020497	CMakeFiles/NHF_Sportegyesulet.dir/Groups/BasketballGroup.cpp.obj	8a65c2327796eafd
 10	954	7051980772040492	CMakeFiles/NHF_Sportegyesulet.dir/Groups/Group.cpp.obj	f4d0629e74ad232d
@@ -12,14 +12,11 @@
 20	1417	7052602197115764	CMakeFiles/NHF_Sportegyesulet.dir/Menus/Lists.cpp.obj	e61353a1e8e2c6e6
 1146	1320	7051980775910848	CMakeFiles/NHF_Sportegyesulet.dir/Menus/Groups.cpp.obj	b1f6f437397407b9
 954	1733	7051980780110039	CMakeFiles/NHF_Sportegyesulet.dir/string.cpp.obj	6354f2cb7819710
-24	861	7052621108439897	CMakeFiles/NHF_Sportegyesulet.dir/Menus/Main.cpp.obj	8deabb4ef6a9345a
+14	729	7052622084467366	CMakeFiles/NHF_Sportegyesulet.dir/Menus/Main.cpp.obj	8deabb4ef6a9345a
 31	677	7052565564237861	CMakeFiles/NHF_Sportegyesulet.dir/Teams/BasketballTeam.cpp.obj	bf9927fbaf4d5af1
 39	687	7052565564338394	CMakeFiles/NHF_Sportegyesulet.dir/Teams/HandballTeam.cpp.obj	f8c220bdc0d6c498
 12	695	7052565564318289	CMakeFiles/NHF_Sportegyesulet.dir/Teams/FootballTeam.cpp.obj	d7abda93557a4de8
 49	788	7052565565357219	CMakeFiles/NHF_Sportegyesulet.dir/Teams/Teams.cpp.obj	e2e3cbaf98fd4ee3
 20	705	7052565564393670	CMakeFiles/NHF_Sportegyesulet.dir/Teams/Team.cpp.obj	ec56385ecb7e8fb7
 55	1529	7052602198578204	CMakeFiles/NHF_Sportegyesulet.dir/Menus/Teamlists.cpp.obj	4ab796e731363b6e
-11	758	7052621107403848	CMakeFiles/NHF_Sportegyesulet.dir/Menus/Manageteams.cpp.obj	cec6064f1e3affc
 13	1029	7052621776377545	CMakeFiles/NHF_Sportegyesulet.dir/Menus/Manageteams.cpp.obj	cec6064f1e3affc
-14	729	7052622084467366	CMakeFiles/NHF_Sportegyesulet.dir/Menus/Main.cpp.obj	8deabb4ef6a9345a
-7	1861	7052622095783763	CMakeFiles/NHF_Sportegyesulet.dir/main.cpp.obj	d18184feeb2e027d

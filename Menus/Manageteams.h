@@ -26,8 +26,6 @@ inline void Deleteteam(){
 
 class Manageteamsmenu : public Menu {
 public:
-    static Manageteamsmenu manageteamsmenu;
-
     Manageteamsmenu()
             : Menu(
             {
@@ -36,7 +34,7 @@ public:
                     {3, "Delete Teams"}
             },
             {
-                    {1, [](){ AddMenu::addmenu.display(); }},
+                    {1, &Addmenu::displayAddMenu},
                     {2, Modifyteam},
                     {3, Deleteteam}
             },

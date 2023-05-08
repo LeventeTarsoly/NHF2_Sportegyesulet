@@ -25,12 +25,11 @@ inline void Addhandballteam(){
     std::cout <<"Hello";
 }
 
-class AddMenu : public Menu {
-public:
-    static AddMenu addmenu;
+class Addmenu : public Menu {
+private:
+    static Addmenu* instance;
 
-    AddMenu()
-            : Menu(
+    Addmenu() : Menu(
             {
                     {1, "Add Football Team"},
                     {2, "Add Basketball Team"},
@@ -44,6 +43,18 @@ public:
             4
     )
     {}
+
+public:
+    static Addmenu* getInstance() {
+        if (!instance) {
+            instance = new Addmenu();
+        }
+        return instance;
+    }
+
+    static void displayAddMenu() {
+        getInstance()->display();
+    }
 };
 
 

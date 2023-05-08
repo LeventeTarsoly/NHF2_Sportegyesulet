@@ -33,8 +33,8 @@ public:
                     {4, "Close and Save"}
             },
             {
-                    {1, BaseData},
-                    {2, BaseData},
+                    //{1, [](){ Manageteamsmenu::manageteamsmenu.display(); }},
+                    {2, [](){ Listsmenu::listsmenu.display(); }},
                     {3, BaseData}
             },
             4

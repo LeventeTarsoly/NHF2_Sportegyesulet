@@ -23,7 +23,7 @@ public:
         int input = 0;
         while (input!=length) {
             std::cin >> input;
-            while(input<=length || input>0){
+            while(input>length && input<0){
                 std::cout << "Wrong input" << std::endl;
                 std::cin >> input;
             }

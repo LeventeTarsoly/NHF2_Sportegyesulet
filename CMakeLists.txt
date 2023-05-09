@@ -3,4 +3,6 @@ project(NHF_Sportegyesulet)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(NHF_Sportegyesulet main.cpp Teams/Team.cpp Teams/Team.h Teams/FootballTeam.cpp Teams/FootballTeam.h Teams/BasketballTeam.cpp Teams/BasketballTeam.h Teams/HandballTeam.cpp Teams/HandballTeam.h Teams/Teams.cpp Teams/Teams.h string.cpp string.h Menus/Lists.cpp Menus/Lists.h Menus/Add.cpp Menus/Add.h Menus/Teamlists.cpp Menus/Teamlists.h Menus/Manageteams.cpp Menus/Manageteams.h Menus/Main.cpp Menus/Main.h)
+add_compile_definitions(MEMTRACE)
+
+add_executable(NHF_Sportegyesulet main.cpp Data/Team.cpp Data/Team.h Data/FootballTeam.cpp Data/FootballTeam.h Data/BasketballTeam.cpp Data/BasketballTeam.h Data/HandballTeam.cpp Data/HandballTeam.h Data/Teams.cpp Data/Teams.h Data/string.cpp Data/string.h Menus/Lists.cpp Menus/Lists.h Menus/Add.cpp Menus/Add.h Menus/Teamlists.cpp Menus/Teamlists.h Menus/Manageteams.cpp Menus/Manageteams.h Menus/Main.cpp Menus/Main.h Data/Type.h)

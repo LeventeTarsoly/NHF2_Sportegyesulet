@@ -10,7 +10,7 @@
 class HandballTeam : public Team{
     int supportAmount;
     int supportSince;
-
+    Teamtype type = Handball;
 };
 
 

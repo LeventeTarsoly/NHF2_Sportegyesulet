@@ -50,72 +50,84 @@ cmake_ninja_workdir = C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/cmake-build-d
 build cmake_object_order_depends_target_NHF_Sportegyesulet: phony || CMakeFiles/NHF_Sportegyesulet.dir
 
 build CMakeFiles/NHF_Sportegyesulet.dir/main.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/main.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
+  DEFINES = -DMEMTRACE
   DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir
   OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir
 
-build CMakeFiles/NHF_Sportegyesulet.dir/Teams/Team.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Teams/Team.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
-  DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Teams\Team.cpp.obj.d
+build CMakeFiles/NHF_Sportegyesulet.dir/Data/Team.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Data/Team.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
+  DEFINES = -DMEMTRACE
+  DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Data\Team.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir
-  OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Teams
+  OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Data
 
-build CMakeFiles/NHF_Sportegyesulet.dir/Teams/FootballTeam.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Teams/FootballTeam.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
-  DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Teams\FootballTeam.cpp.obj.d
+build CMakeFiles/NHF_Sportegyesulet.dir/Data/FootballTeam.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Data/FootballTeam.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
+  DEFINES = -DMEMTRACE
+  DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Data\FootballTeam.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir
-  OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Teams
+  OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Data
 
-build CMakeFiles/NHF_Sportegyesulet.dir/Teams/BasketballTeam.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Teams/BasketballTeam.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
-  DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Teams\BasketballTeam.cpp.obj.d
+build CMakeFiles/NHF_Sportegyesulet.dir/Data/BasketballTeam.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Data/BasketballTeam.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
+  DEFINES = -DMEMTRACE
+  DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Data\BasketballTeam.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir
-  OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Teams
+  OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Data
 
-build CMakeFiles/NHF_Sportegyesulet.dir/Teams/HandballTeam.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Teams/HandballTeam.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
-  DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Teams\HandballTeam.cpp.obj.d
+build CMakeFiles/NHF_Sportegyesulet.dir/Data/HandballTeam.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Data/HandballTeam.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
+  DEFINES = -DMEMTRACE
+  DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Data\HandballTeam.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir
-  OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Teams
+  OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Data
 
-build CMakeFiles/NHF_Sportegyesulet.dir/Teams/Teams.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Teams/Teams.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
-  DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Teams\Teams.cpp.obj.d
+build CMakeFiles/NHF_Sportegyesulet.dir/Data/Teams.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Data/Teams.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
+  DEFINES = -DMEMTRACE
+  DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Data\Teams.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir
-  OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Teams
+  OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Data
 
-build CMakeFiles/NHF_Sportegyesulet.dir/string.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/string.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
-  DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\string.cpp.obj.d
+build CMakeFiles/NHF_Sportegyesulet.dir/Data/string.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Data/string.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
+  DEFINES = -DMEMTRACE
+  DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Data\string.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir
-  OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir
+  OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Data
 
 build CMakeFiles/NHF_Sportegyesulet.dir/Menus/Lists.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Menus/Lists.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
+  DEFINES = -DMEMTRACE
   DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Menus\Lists.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir
   OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Menus
 
 build CMakeFiles/NHF_Sportegyesulet.dir/Menus/Add.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Menus/Add.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
+  DEFINES = -DMEMTRACE
   DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Menus\Add.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir
   OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Menus
 
 build CMakeFiles/NHF_Sportegyesulet.dir/Menus/Teamlists.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Menus/Teamlists.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
+  DEFINES = -DMEMTRACE
   DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Menus\Teamlists.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir
   OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Menus
 
 build CMakeFiles/NHF_Sportegyesulet.dir/Menus/Manageteams.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Menus/Manageteams.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
+  DEFINES = -DMEMTRACE
   DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Menus\Manageteams.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir
   OBJECT_FILE_DIR = CMakeFiles\NHF_Sportegyesulet.dir\Menus
 
 build CMakeFiles/NHF_Sportegyesulet.dir/Menus/Main.cpp.obj: CXX_COMPILER__NHF_Sportegyesulet_Debug C$:/Users/TLevente/Prog2/NHF2_Sportegyesulet/Menus/Main.cpp || cmake_object_order_depends_target_NHF_Sportegyesulet
+  DEFINES = -DMEMTRACE
   DEP_FILE = CMakeFiles\NHF_Sportegyesulet.dir\Menus\Main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir
@@ -129,7 +141,7 @@ build CMakeFiles/NHF_Sportegyesulet.dir/Menus/Main.cpp.obj: CXX_COMPILER__NHF_Sp
 #############################################
 # Link the executable NHF_Sportegyesulet.exe
 
-build NHF_Sportegyesulet.exe: CXX_EXECUTABLE_LINKER__NHF_Sportegyesulet_Debug CMakeFiles/NHF_Sportegyesulet.dir/main.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Teams/Team.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Teams/FootballTeam.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Teams/BasketballTeam.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Teams/HandballTeam.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Teams/Teams.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/string.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Menus/Lists.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Menus/Add.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Menus/Teamlists.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Menus/Manageteams.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Menus/Main.cpp.obj
+build NHF_Sportegyesulet.exe: CXX_EXECUTABLE_LINKER__NHF_Sportegyesulet_Debug CMakeFiles/NHF_Sportegyesulet.dir/main.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Data/Team.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Data/FootballTeam.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Data/BasketballTeam.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Data/HandballTeam.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Data/Teams.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Data/string.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Menus/Lists.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Menus/Add.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Menus/Teamlists.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Menus/Manageteams.cpp.obj CMakeFiles/NHF_Sportegyesulet.dir/Menus/Main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\NHF_Sportegyesulet.dir

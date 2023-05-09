@@ -11,7 +11,9 @@
 class FootballTeam : public Team{
     String trainers[2];
     String sponsor;
+    Teamtype type = Football;
 public:
+    int getsupport();
 };
 
 

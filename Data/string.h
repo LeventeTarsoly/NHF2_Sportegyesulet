@@ -67,6 +67,9 @@ public:
     /// @return Ăşj String, ami tartalmazza a kĂŠt stringet egmĂĄs utĂĄn
     String operator+(const String& rhs_s) const;
 
+    //TODO
+    bool cmp(const String& rhs_s);
+
     /// Sztrinhez karaktert ĂśsszefĹąz (concatString)
     /// @param rhs_c - jobboldali karakter
     /// @return Ăşj String, ami tartalmazza a kĂŠt sztringet egymĂĄs utĂĄn

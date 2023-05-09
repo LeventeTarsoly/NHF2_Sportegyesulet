@@ -10,6 +10,7 @@
 class BasketballTeam : public Team{
     int pompomCount;
     String pompomName;
+    Teamtype type = Basketball;
 public:
 };
 

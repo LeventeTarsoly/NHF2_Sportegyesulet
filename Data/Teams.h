@@ -21,17 +21,7 @@ class Club {
 public:
     Club() : head(nullptr), tail(nullptr) {}
 
-    void push_front(Team* d) {
-        if (head == nullptr) {
-            head = new Node(d);
-            tail = new Node(d);
-        } else {
-            head->prev = new Node(d, nullptr, head);
-            head = head->prev;
-        }
-    }
-
-    void push_back(Team* d) {
+    void add(Team* d) {
         if (tail == nullptr) {
             head = new Node(d);
             tail = new Node(d);
@@ -65,6 +55,14 @@ public:
             iter = temp;
         }
     }
+    //TODO
+    int totalprice();
+    //TODO
+    int totalathletes();
+    //TODO
+    int typeteamcnt(Teamtype t);
+    //TODO
+    int typeathletecnt(Teamtype t);
 };
 
 #endif //NHF_SPORTEGYESULET_TEAMS_H

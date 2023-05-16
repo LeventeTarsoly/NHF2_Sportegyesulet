@@ -1,0 +1,58 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+struct Node{
+Team* data
+Node* next
+Node* prev
+}
+
+
+abstract class Team {
+-String name
+-int count
++{abstract} void print()
++{abstract} modify()
++{abstract} bool cmp()
++{abstract} Team* clone()
+}
+
+class Club{
+-Node* head
+-Node* tail
++void add(Team* d)
++void pop(Node* p)
++void print()
++int length()
++int totalprice()
++int totalathletes()
++int typeteamcnt()
++int typeathletecnt()
+}
+
+class FootballTeam{
+-String trainers[2]
+-String sponsor
++int getsupport()
+}
+
+class BasketballTeam{
+-int pompomCount
+-String pompomName
+}
+
+class HandballTeam{
+-int supportAmount
+-int supportSince
+}
+
+Club *-- Team
+Club *-- Node
+Team <|-- FootballTeam
+Team <|-- BasketballTeam
+Team <|--HandballTeam
+FootballTeam *-- String
+BasketballTeam *-- String
+Team *-- String
+
+@enduml

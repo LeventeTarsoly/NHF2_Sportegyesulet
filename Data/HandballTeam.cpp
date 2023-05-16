@@ -1,5 +1,17 @@
-//
-// Created by TLevente on 03/05/2023.
-//
-
 #include "HandballTeam.h"
+
+void HandballTeam::print() {
+    using namespace std;{
+        cout << "Name: " << this->getname() << endl;
+        cout << "Count: " << this->getcount() << endl;
+        cout << "Amount of support: " << this->supportAmount << endl;
+        cout << "Getting support since: " << this->supportSince << endl;
+    }
+
+}
+//TODO
+void HandballTeam::modify(){}
+Team* HandballTeam::clone(){
+    Team *result =new HandballTeam(*this);
+    return result;
+}

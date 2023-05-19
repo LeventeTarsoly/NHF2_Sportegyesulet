@@ -14,6 +14,12 @@ class BasketballTeam : public Team{
 public:
     BasketballTeam() : Team(String(""), 0), pompomCount(0), pompomName(String("")) {}
     BasketballTeam(String n, int c, int pc, const String& pn) : Team(String(n), c), pompomCount(pc), pompomName(String(pn)) {}
+    void setpompomCount(int c){
+        pompomCount=c;
+    }
+    void setpompomName(String& n){
+        this->pompomName=n;
+    }
     void print();
     void modify();
     Team* clone();

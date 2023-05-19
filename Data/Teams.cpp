@@ -5,8 +5,8 @@ void Club::add(Team* d) {
         tail = new Node(d);
         head = new Node(d);
     } else {
-        head->next = new Node(d, head, nullptr);
-        head = head->next;
+        tail->prev->next = new Node(d, tail, tail->prev);
+        tail->prev = tail->prev->next;
     }
 }
 

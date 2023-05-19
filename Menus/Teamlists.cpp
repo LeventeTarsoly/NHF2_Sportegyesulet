@@ -1,3 +1,4 @@
+#include <limits>
 #include "Teamlists.h"
 
 //TODO
@@ -13,7 +14,7 @@ inline void Handballlist(){
     std::cout <<"TODO"<< endl;
 }
 
-inline void Teamlistsmenu(){
+void Teamlistsmenu(){
     int input=0;
     while (input!=4){
         cout << "1.List of Football Teams"<< endl;
@@ -23,6 +24,8 @@ inline void Teamlistsmenu(){
         cin >> input;
         while(input>4 || input<1){
             cout << "Wrong input"<< endl;
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cin >> input;
         }
         switch (input) {

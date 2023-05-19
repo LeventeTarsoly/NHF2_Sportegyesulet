@@ -13,7 +13,7 @@
 inline void Addfootballteam();
 inline void Addbasketballteam();
 inline void Addhandballteam();
-inline void Addmenu();
+void Addmenu();
 
 
 #endif //NHF_SPORTEGYESULET_ADD_H

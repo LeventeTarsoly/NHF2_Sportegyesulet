@@ -1,12 +1,12 @@
+#include <limits>
 #include "Main.h"
-
 
 //TODO
 inline void BaseData(){
     std::cout <<"TODO"<< endl;
 }
 
-inline void Mainmenu(){
+void Mainmenu(){
     std::cout << "  _____   _   _     _       ____                           _              ____   _           _     \n"
                  " |  ___| (_) | |_  | |_    / ___|   _ __     ___    _ __  | |_   ___     / ___| | |  _   _  | |__  \n"
                  " | |_    | | | __| | __|   \\___ \\  | '_ \\   / _ \\  | '__| | __| / __|   | |     | | | | | | | '_ \\ \n"
@@ -22,6 +22,8 @@ inline void Mainmenu(){
         cin >> input;
         while(input>4 || input<1){
             cout << "Wrong input"<< endl;
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cin >> input;
         }
         switch (input) {

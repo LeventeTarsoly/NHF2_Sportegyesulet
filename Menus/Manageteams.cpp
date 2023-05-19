@@ -1,5 +1,7 @@
+#include <limits>
 #include "Manageteams.h"
 
+using namespace std;
 
 //TODO
 inline void Modifyteam(){
@@ -10,7 +12,7 @@ inline void Deleteteam(){
     std::cout <<"TODO"<< endl;
 }
 
-inline void Manageteamsmenu(){
+void Manageteamsmenu(){
     int input=0;
     while (input!=4){
         cout << "1.Add Teams"<< endl;
@@ -20,6 +22,8 @@ inline void Manageteamsmenu(){
         cin >> input;
         while(input>4 || input<1){
             cout << "Wrong input"<< endl;
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cin >> input;
         }
         switch (input) {

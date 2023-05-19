@@ -3,7 +3,6 @@
 #include "Data/HandballTeam.h"
 #include "Data/Teams.h"
 
-//ez egyenlore csak kiirja ostreamre hogy lassam, ez modositva lesz
 bool classtest(){
     FootballTeam footballTeam1;
     String trainers[2];
@@ -16,16 +15,22 @@ bool classtest(){
     HandballTeam handballTeam2("h", 20, 200, 2010);
     Club club;
     footballTeam1.print();
+    club.add(footballTeam1.clone());
     cout << endl;
     footballTeam2.print();
+    club.add(footballTeam2.clone());
     cout << endl;
     basketballTeam1.print();
+    club.add(basketballTeam1.clone());
     cout << endl;
     basketballTeam2.print();
+    club.add(basketballTeam2.clone());
     cout << endl;
     handballTeam1.print();
+    club.add(handballTeam1.clone());
     cout << endl;
     handballTeam2.print();
+    club.add(handballTeam2.clone());
     cout << endl;
     return true;
 }

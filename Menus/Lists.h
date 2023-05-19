@@ -14,7 +14,7 @@
 inline void Sponsorlist();
 inline void SponsorSupporlist();
 inline void Supportlist();
-inline void Listsmenu();
+void Listsmenu();
 
 
 #endif //NHF_SPORTEGYESULET_LISTS_H

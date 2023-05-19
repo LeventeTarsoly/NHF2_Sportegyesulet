@@ -22,6 +22,12 @@ public:
     int getcount() {
         return count;
     }
+    void setname(String& n){
+        this->name=n;
+    }
+    int setcount(int c) {
+        this->count=c;
+    }
     bool cmp();
 };
 

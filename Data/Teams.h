@@ -19,7 +19,9 @@ class Club {
     Node* head;
     Node* tail;
 public:
-    Club() : head(nullptr), tail(nullptr) {}
+    Club() : head(nullptr), tail(nullptr) {
+        head->next=tail;
+        tail->prev=head;}
 
     void add(Team* d);
     void pop(Node* p);

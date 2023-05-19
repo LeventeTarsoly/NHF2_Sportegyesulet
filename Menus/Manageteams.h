@@ -14,7 +14,7 @@
 
 inline void Modifyteam();
 inline void Deleteteam();
-inline void Manageteamsmenu();
+void Manageteamsmenu();
 
 
 #endif //NHF_SPORTEGYESULET_TEAMS_H

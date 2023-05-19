@@ -14,6 +14,6 @@ using namespace std;
 inline void Footballlist();
 inline void Basketballlist();
 inline void Handballlist();
-inline void Teamlistsmenu();
+void Teamlistsmenu();
 
 #endif //NHF_SPORTEGYESULET_TEAMLISTS_H

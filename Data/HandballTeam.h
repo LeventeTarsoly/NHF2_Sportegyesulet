@@ -13,6 +13,12 @@ class HandballTeam : public Team{
 public:
     HandballTeam() : Team(String(""), 0), supportAmount(0), supportSince(0) {}
     HandballTeam(String n, int c, int sa, int ss) : Team(String(n), c), supportAmount(sa), supportSince(ss){}
+    int setsupportAmount(int sa) {
+        this->supportAmount=sa;
+    }
+    int setsupportSince(int ss) {
+        this->supportSince=ss;
+    }
     void print();
     void modify();
     Team* clone();

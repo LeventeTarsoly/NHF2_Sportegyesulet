@@ -15,7 +15,7 @@
 
 inline void BaseData();
 
-inline void Mainmenu();
+void Mainmenu();
 
 
 #endif //NHF_SPORTEGYESULET_MAIN_H

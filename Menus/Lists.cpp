@@ -1,3 +1,4 @@
+#include <limits>
 #include "Lists.h"
 
 
@@ -14,7 +15,7 @@ inline void Supportlist(){
     std::cout <<"TODO"<< endl;
 }
 
-inline void Listsmenu(){
+void Listsmenu(){
     int input=0;
     while (input!=5){
         cout << "1.Group lists"<< endl;
@@ -25,6 +26,8 @@ inline void Listsmenu(){
         cin >> input;
         while(input>5 || input<1){
             cout << "Wrong input"<< endl;
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cin >> input;
         }
         switch (input) {

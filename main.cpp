@@ -19,7 +19,8 @@ int main() {
    SetConsoleCP(1250);
    SetConsoleOutputCP(1250);
 #endif
-    read();
+    //read();
+    classtest();
     Mainmenu();
-    save();
+    //save();
 }

@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DMEMTRACE"/>
 					<Add directory="C:/Users/Admin/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Users/Admin/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Users/Admin/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -46,6 +47,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DMEMTRACE"/>
 					<Add directory="C:/Users/Admin/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Users/Admin/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Users/Admin/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -82,55 +84,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Groups/BasketballGroup.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/BasketballTeam.cpp">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Groups/BasketballGroup.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/BasketballTeam.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Groups/FootballGroup.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/FootballTeam.cpp">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Groups/FootballGroup.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/FootballTeam.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Groups/Group.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/HandballTeam.cpp">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Groups/Group.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/HandballTeam.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Groups/Groups.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/Team.cpp">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Groups/Groups.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/Team.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Groups/HandballGroup.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/Teams.cpp">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Groups/HandballGroup.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/Teams.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/List.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/string.cpp">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Create.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/string.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Create.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Add.cpp">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Grouplists.cpp">
-			<Option target="NHF_Sportegyesulet"/>
-		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Grouplists.h">
-			<Option target="NHF_Sportegyesulet"/>
-		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Groups.cpp">
-			<Option target="NHF_Sportegyesulet"/>
-		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Groups.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Add.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Lists.cpp">
@@ -145,16 +138,37 @@
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Main.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Menu.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Manageteams.cpp">
+			<Option target="NHF_Sportegyesulet"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Manageteams.h">
+			<Option target="NHF_Sportegyesulet"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Teamlists.cpp">
+			<Option target="NHF_Sportegyesulet"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Teamlists.h">
+			<Option target="NHF_Sportegyesulet"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/files.cpp">
+			<Option target="NHF_Sportegyesulet"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/files.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/main.cpp">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/string.cpp">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/memtrace.cpp">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/string.h">
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/memtrace.h">
+			<Option target="NHF_Sportegyesulet"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/test.cpp">
+			<Option target="NHF_Sportegyesulet"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/test.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/CMakeLists.txt">

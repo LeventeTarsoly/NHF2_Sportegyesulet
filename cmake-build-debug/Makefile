@@ -128,197 +128,173 @@ NHF_Sportegyesulet/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/build
 .PHONY : NHF_Sportegyesulet/fast
 
-Groups/BasketballGroup.obj: Groups/BasketballGroup.cpp.obj
-.PHONY : Groups/BasketballGroup.obj
+Data/BasketballTeam.obj: Data/BasketballTeam.cpp.obj
+.PHONY : Data/BasketballTeam.obj
 
 # target to build an object file
-Groups/BasketballGroup.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/BasketballGroup.cpp.obj
-.PHONY : Groups/BasketballGroup.cpp.obj
+Data/BasketballTeam.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/BasketballTeam.cpp.obj
+.PHONY : Data/BasketballTeam.cpp.obj
 
-Groups/BasketballGroup.i: Groups/BasketballGroup.cpp.i
-.PHONY : Groups/BasketballGroup.i
+Data/BasketballTeam.i: Data/BasketballTeam.cpp.i
+.PHONY : Data/BasketballTeam.i
 
 # target to preprocess a source file
-Groups/BasketballGroup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/BasketballGroup.cpp.i
-.PHONY : Groups/BasketballGroup.cpp.i
+Data/BasketballTeam.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/BasketballTeam.cpp.i
+.PHONY : Data/BasketballTeam.cpp.i
 
-Groups/BasketballGroup.s: Groups/BasketballGroup.cpp.s
-.PHONY : Groups/BasketballGroup.s
+Data/BasketballTeam.s: Data/BasketballTeam.cpp.s
+.PHONY : Data/BasketballTeam.s
 
 # target to generate assembly for a file
-Groups/BasketballGroup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/BasketballGroup.cpp.s
-.PHONY : Groups/BasketballGroup.cpp.s
+Data/BasketballTeam.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/BasketballTeam.cpp.s
+.PHONY : Data/BasketballTeam.cpp.s
 
-Groups/FootballGroup.obj: Groups/FootballGroup.cpp.obj
-.PHONY : Groups/FootballGroup.obj
+Data/FootballTeam.obj: Data/FootballTeam.cpp.obj
+.PHONY : Data/FootballTeam.obj
 
 # target to build an object file
-Groups/FootballGroup.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/FootballGroup.cpp.obj
-.PHONY : Groups/FootballGroup.cpp.obj
+Data/FootballTeam.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/FootballTeam.cpp.obj
+.PHONY : Data/FootballTeam.cpp.obj
 
-Groups/FootballGroup.i: Groups/FootballGroup.cpp.i
-.PHONY : Groups/FootballGroup.i
+Data/FootballTeam.i: Data/FootballTeam.cpp.i
+.PHONY : Data/FootballTeam.i
 
 # target to preprocess a source file
-Groups/FootballGroup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/FootballGroup.cpp.i
-.PHONY : Groups/FootballGroup.cpp.i
+Data/FootballTeam.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/FootballTeam.cpp.i
+.PHONY : Data/FootballTeam.cpp.i
 
-Groups/FootballGroup.s: Groups/FootballGroup.cpp.s
-.PHONY : Groups/FootballGroup.s
+Data/FootballTeam.s: Data/FootballTeam.cpp.s
+.PHONY : Data/FootballTeam.s
 
 # target to generate assembly for a file
-Groups/FootballGroup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/FootballGroup.cpp.s
-.PHONY : Groups/FootballGroup.cpp.s
+Data/FootballTeam.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/FootballTeam.cpp.s
+.PHONY : Data/FootballTeam.cpp.s
 
-Groups/Group.obj: Groups/Group.cpp.obj
-.PHONY : Groups/Group.obj
+Data/HandballTeam.obj: Data/HandballTeam.cpp.obj
+.PHONY : Data/HandballTeam.obj
 
 # target to build an object file
-Groups/Group.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/Group.cpp.obj
-.PHONY : Groups/Group.cpp.obj
+Data/HandballTeam.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/HandballTeam.cpp.obj
+.PHONY : Data/HandballTeam.cpp.obj
 
-Groups/Group.i: Groups/Group.cpp.i
-.PHONY : Groups/Group.i
+Data/HandballTeam.i: Data/HandballTeam.cpp.i
+.PHONY : Data/HandballTeam.i
 
 # target to preprocess a source file
-Groups/Group.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/Group.cpp.i
-.PHONY : Groups/Group.cpp.i
+Data/HandballTeam.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/HandballTeam.cpp.i
+.PHONY : Data/HandballTeam.cpp.i
 
-Groups/Group.s: Groups/Group.cpp.s
-.PHONY : Groups/Group.s
+Data/HandballTeam.s: Data/HandballTeam.cpp.s
+.PHONY : Data/HandballTeam.s
 
 # target to generate assembly for a file
-Groups/Group.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/Group.cpp.s
-.PHONY : Groups/Group.cpp.s
+Data/HandballTeam.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/HandballTeam.cpp.s
+.PHONY : Data/HandballTeam.cpp.s
 
-Groups/Groups.obj: Groups/Groups.cpp.obj
-.PHONY : Groups/Groups.obj
+Data/Team.obj: Data/Team.cpp.obj
+.PHONY : Data/Team.obj
 
 # target to build an object file
-Groups/Groups.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/Groups.cpp.obj
-.PHONY : Groups/Groups.cpp.obj
+Data/Team.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Team.cpp.obj
+.PHONY : Data/Team.cpp.obj
 
-Groups/Groups.i: Groups/Groups.cpp.i
-.PHONY : Groups/Groups.i
+Data/Team.i: Data/Team.cpp.i
+.PHONY : Data/Team.i
 
 # target to preprocess a source file
-Groups/Groups.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/Groups.cpp.i
-.PHONY : Groups/Groups.cpp.i
+Data/Team.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Team.cpp.i
+.PHONY : Data/Team.cpp.i
 
-Groups/Groups.s: Groups/Groups.cpp.s
-.PHONY : Groups/Groups.s
+Data/Team.s: Data/Team.cpp.s
+.PHONY : Data/Team.s
 
 # target to generate assembly for a file
-Groups/Groups.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/Groups.cpp.s
-.PHONY : Groups/Groups.cpp.s
+Data/Team.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Team.cpp.s
+.PHONY : Data/Team.cpp.s
 
-Groups/HandballGroup.obj: Groups/HandballGroup.cpp.obj
-.PHONY : Groups/HandballGroup.obj
+Data/Teams.obj: Data/Teams.cpp.obj
+.PHONY : Data/Teams.obj
 
 # target to build an object file
-Groups/HandballGroup.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/HandballGroup.cpp.obj
-.PHONY : Groups/HandballGroup.cpp.obj
+Data/Teams.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Teams.cpp.obj
+.PHONY : Data/Teams.cpp.obj
 
-Groups/HandballGroup.i: Groups/HandballGroup.cpp.i
-.PHONY : Groups/HandballGroup.i
+Data/Teams.i: Data/Teams.cpp.i
+.PHONY : Data/Teams.i
 
 # target to preprocess a source file
-Groups/HandballGroup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/HandballGroup.cpp.i
-.PHONY : Groups/HandballGroup.cpp.i
+Data/Teams.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Teams.cpp.i
+.PHONY : Data/Teams.cpp.i
 
-Groups/HandballGroup.s: Groups/HandballGroup.cpp.s
-.PHONY : Groups/HandballGroup.s
+Data/Teams.s: Data/Teams.cpp.s
+.PHONY : Data/Teams.s
 
 # target to generate assembly for a file
-Groups/HandballGroup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Groups/HandballGroup.cpp.s
-.PHONY : Groups/HandballGroup.cpp.s
+Data/Teams.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Teams.cpp.s
+.PHONY : Data/Teams.cpp.s
 
-Menus/Create.obj: Menus/Create.cpp.obj
-.PHONY : Menus/Create.obj
+Data/string.obj: Data/string.cpp.obj
+.PHONY : Data/string.obj
 
 # target to build an object file
-Menus/Create.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Create.cpp.obj
-.PHONY : Menus/Create.cpp.obj
+Data/string.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/string.cpp.obj
+.PHONY : Data/string.cpp.obj
 
-Menus/Create.i: Menus/Create.cpp.i
-.PHONY : Menus/Create.i
+Data/string.i: Data/string.cpp.i
+.PHONY : Data/string.i
 
 # target to preprocess a source file
-Menus/Create.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Create.cpp.i
-.PHONY : Menus/Create.cpp.i
+Data/string.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/string.cpp.i
+.PHONY : Data/string.cpp.i
 
-Menus/Create.s: Menus/Create.cpp.s
-.PHONY : Menus/Create.s
+Data/string.s: Data/string.cpp.s
+.PHONY : Data/string.s
 
 # target to generate assembly for a file
-Menus/Create.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Create.cpp.s
-.PHONY : Menus/Create.cpp.s
+Data/string.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/string.cpp.s
+.PHONY : Data/string.cpp.s
 
-Menus/Grouplists.obj: Menus/Grouplists.cpp.obj
-.PHONY : Menus/Grouplists.obj
+Menus/Add.obj: Menus/Add.cpp.obj
+.PHONY : Menus/Add.obj
 
 # target to build an object file
-Menus/Grouplists.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Grouplists.cpp.obj
-.PHONY : Menus/Grouplists.cpp.obj
+Menus/Add.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Add.cpp.obj
+.PHONY : Menus/Add.cpp.obj
 
-Menus/Grouplists.i: Menus/Grouplists.cpp.i
-.PHONY : Menus/Grouplists.i
-
-# target to preprocess a source file
-Menus/Grouplists.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Grouplists.cpp.i
-.PHONY : Menus/Grouplists.cpp.i
-
-Menus/Grouplists.s: Menus/Grouplists.cpp.s
-.PHONY : Menus/Grouplists.s
-
-# target to generate assembly for a file
-Menus/Grouplists.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Grouplists.cpp.s
-.PHONY : Menus/Grouplists.cpp.s
-
-Menus/Groups.obj: Menus/Groups.cpp.obj
-.PHONY : Menus/Groups.obj
-
-# target to build an object file
-Menus/Groups.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Groups.cpp.obj
-.PHONY : Menus/Groups.cpp.obj
-
-Menus/Groups.i: Menus/Groups.cpp.i
-.PHONY : Menus/Groups.i
+Menus/Add.i: Menus/Add.cpp.i
+.PHONY : Menus/Add.i
 
 # target to preprocess a source file
-Menus/Groups.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Groups.cpp.i
-.PHONY : Menus/Groups.cpp.i
+Menus/Add.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Add.cpp.i
+.PHONY : Menus/Add.cpp.i
 
-Menus/Groups.s: Menus/Groups.cpp.s
-.PHONY : Menus/Groups.s
+Menus/Add.s: Menus/Add.cpp.s
+.PHONY : Menus/Add.s
 
 # target to generate assembly for a file
-Menus/Groups.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Groups.cpp.s
-.PHONY : Menus/Groups.cpp.s
+Menus/Add.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Add.cpp.s
+.PHONY : Menus/Add.cpp.s
 
 Menus/Lists.obj: Menus/Lists.cpp.obj
 .PHONY : Menus/Lists.obj
@@ -368,6 +344,78 @@ Menus/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Main.cpp.s
 .PHONY : Menus/Main.cpp.s
 
+Menus/Manageteams.obj: Menus/Manageteams.cpp.obj
+.PHONY : Menus/Manageteams.obj
+
+# target to build an object file
+Menus/Manageteams.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Manageteams.cpp.obj
+.PHONY : Menus/Manageteams.cpp.obj
+
+Menus/Manageteams.i: Menus/Manageteams.cpp.i
+.PHONY : Menus/Manageteams.i
+
+# target to preprocess a source file
+Menus/Manageteams.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Manageteams.cpp.i
+.PHONY : Menus/Manageteams.cpp.i
+
+Menus/Manageteams.s: Menus/Manageteams.cpp.s
+.PHONY : Menus/Manageteams.s
+
+# target to generate assembly for a file
+Menus/Manageteams.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Manageteams.cpp.s
+.PHONY : Menus/Manageteams.cpp.s
+
+Menus/Teamlists.obj: Menus/Teamlists.cpp.obj
+.PHONY : Menus/Teamlists.obj
+
+# target to build an object file
+Menus/Teamlists.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Teamlists.cpp.obj
+.PHONY : Menus/Teamlists.cpp.obj
+
+Menus/Teamlists.i: Menus/Teamlists.cpp.i
+.PHONY : Menus/Teamlists.i
+
+# target to preprocess a source file
+Menus/Teamlists.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Teamlists.cpp.i
+.PHONY : Menus/Teamlists.cpp.i
+
+Menus/Teamlists.s: Menus/Teamlists.cpp.s
+.PHONY : Menus/Teamlists.s
+
+# target to generate assembly for a file
+Menus/Teamlists.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Teamlists.cpp.s
+.PHONY : Menus/Teamlists.cpp.s
+
+files.obj: files.cpp.obj
+.PHONY : files.obj
+
+# target to build an object file
+files.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/files.cpp.obj
+.PHONY : files.cpp.obj
+
+files.i: files.cpp.i
+.PHONY : files.i
+
+# target to preprocess a source file
+files.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/files.cpp.i
+.PHONY : files.cpp.i
+
+files.s: files.cpp.s
+.PHONY : files.s
+
+# target to generate assembly for a file
+files.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/files.cpp.s
+.PHONY : files.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -392,29 +440,53 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-string.obj: string.cpp.obj
-.PHONY : string.obj
+memtrace.obj: memtrace.cpp.obj
+.PHONY : memtrace.obj
 
 # target to build an object file
-string.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/string.cpp.obj
-.PHONY : string.cpp.obj
+memtrace.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/memtrace.cpp.obj
+.PHONY : memtrace.cpp.obj
 
-string.i: string.cpp.i
-.PHONY : string.i
+memtrace.i: memtrace.cpp.i
+.PHONY : memtrace.i
 
 # target to preprocess a source file
-string.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/string.cpp.i
-.PHONY : string.cpp.i
+memtrace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/memtrace.cpp.i
+.PHONY : memtrace.cpp.i
 
-string.s: string.cpp.s
-.PHONY : string.s
+memtrace.s: memtrace.cpp.s
+.PHONY : memtrace.s
 
 # target to generate assembly for a file
-string.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/string.cpp.s
-.PHONY : string.cpp.s
+memtrace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/memtrace.cpp.s
+.PHONY : memtrace.cpp.s
+
+test.obj: test.cpp.obj
+.PHONY : test.obj
+
+# target to build an object file
+test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/test.cpp.obj
+.PHONY : test.cpp.obj
+
+test.i: test.cpp.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -425,42 +497,51 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... NHF_Sportegyesulet
-	@echo ... Groups/BasketballGroup.obj
-	@echo ... Groups/BasketballGroup.i
-	@echo ... Groups/BasketballGroup.s
-	@echo ... Groups/FootballGroup.obj
-	@echo ... Groups/FootballGroup.i
-	@echo ... Groups/FootballGroup.s
-	@echo ... Groups/Group.obj
-	@echo ... Groups/Group.i
-	@echo ... Groups/Group.s
-	@echo ... Groups/Groups.obj
-	@echo ... Groups/Groups.i
-	@echo ... Groups/Groups.s
-	@echo ... Groups/HandballGroup.obj
-	@echo ... Groups/HandballGroup.i
-	@echo ... Groups/HandballGroup.s
-	@echo ... Menus/Create.obj
-	@echo ... Menus/Create.i
-	@echo ... Menus/Create.s
-	@echo ... Menus/Grouplists.obj
-	@echo ... Menus/Grouplists.i
-	@echo ... Menus/Grouplists.s
-	@echo ... Menus/Groups.obj
-	@echo ... Menus/Groups.i
-	@echo ... Menus/Groups.s
+	@echo ... Data/BasketballTeam.obj
+	@echo ... Data/BasketballTeam.i
+	@echo ... Data/BasketballTeam.s
+	@echo ... Data/FootballTeam.obj
+	@echo ... Data/FootballTeam.i
+	@echo ... Data/FootballTeam.s
+	@echo ... Data/HandballTeam.obj
+	@echo ... Data/HandballTeam.i
+	@echo ... Data/HandballTeam.s
+	@echo ... Data/Team.obj
+	@echo ... Data/Team.i
+	@echo ... Data/Team.s
+	@echo ... Data/Teams.obj
+	@echo ... Data/Teams.i
+	@echo ... Data/Teams.s
+	@echo ... Data/string.obj
+	@echo ... Data/string.i
+	@echo ... Data/string.s
+	@echo ... Menus/Add.obj
+	@echo ... Menus/Add.i
+	@echo ... Menus/Add.s
 	@echo ... Menus/Lists.obj
 	@echo ... Menus/Lists.i
 	@echo ... Menus/Lists.s
 	@echo ... Menus/Main.obj
 	@echo ... Menus/Main.i
 	@echo ... Menus/Main.s
+	@echo ... Menus/Manageteams.obj
+	@echo ... Menus/Manageteams.i
+	@echo ... Menus/Manageteams.s
+	@echo ... Menus/Teamlists.obj
+	@echo ... Menus/Teamlists.i
+	@echo ... Menus/Teamlists.s
+	@echo ... files.obj
+	@echo ... files.i
+	@echo ... files.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... string.obj
-	@echo ... string.i
-	@echo ... string.s
+	@echo ... memtrace.obj
+	@echo ... memtrace.i
+	@echo ... memtrace.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

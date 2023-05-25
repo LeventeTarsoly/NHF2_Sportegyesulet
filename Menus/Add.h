@@ -9,11 +9,12 @@
 #include <map>
 #include <functional>
 #include "../Data/string.h"
+#include "../Data/Club.h"
 
-inline void Addfootballteam();
-inline void Addbasketballteam();
-inline void Addhandballteam();
-void Addmenu();
+inline void Addfootballteam(Club& club);
+inline void Addbasketballteam(Club& club);
+inline void Addhandballteam(Club& club);
+void Addmenu(Club& club);
 
 
 #endif //NHF_SPORTEGYESULET_ADD_H

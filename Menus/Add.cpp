@@ -10,8 +10,7 @@
 
 using namespace std;
 
-//TODO
-inline void Addfootballteam(){
+inline void Addfootballteam(Club& club){
     cout << "Name: ";
     String n;
     cin >> n;
@@ -32,10 +31,10 @@ inline void Addfootballteam(){
     cout << "Sponsor name: ";
     cin >> str;
     FootballTeam footballTeam(n, c, tr, str);
-    //TODO add
+    club.add(footballTeam.clone());
 }
-//TODO
-inline void Addbasketballteam(){
+
+inline void Addbasketballteam(Club& club){
     cout << "Name: ";
     String n;
     cin >> n;
@@ -57,10 +56,10 @@ inline void Addbasketballteam(){
     cout << "Pompom team name: ";
     cin >> ppn;
     BasketballTeam basketballTeam(n,c,ppc,ppn);
-    //TODO add
+    club.add(basketballTeam.clone());
 }
-//TODO
-inline void Addhandballteam(){
+
+inline void Addhandballteam(Club& club){
     cout << "Name: ";
     String n;
     cin >> n;
@@ -86,10 +85,10 @@ inline void Addhandballteam(){
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
     HandballTeam handballTeam(n, c, sa,ss);
-    //TODO add
+    club.add(handballTeam.clone());
 }
 
-void Addmenu(){
+void Addmenu(Club& club){
     int input=0;
     while (input!=4){
         cout << "1.Add Football Team"<< endl;
@@ -104,11 +103,11 @@ void Addmenu(){
             cin >> input;
         }
         switch (input) {
-            case 1: Addfootballteam();
+            case 1: Addfootballteam(club);
                 break;
-            case 2: Addbasketballteam();
+            case 2: Addbasketballteam(club);
                 break;
-            case 3: Addhandballteam();
+            case 3: Addhandballteam(club);
                 break;
         }
     }

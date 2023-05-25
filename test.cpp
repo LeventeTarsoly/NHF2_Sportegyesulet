@@ -1,7 +1,7 @@
 #include "Data/FootballTeam.h"
 #include "Data/BasketballTeam.h"
 #include "Data/HandballTeam.h"
-#include "Data/Teams.h"
+#include "Data/Club.h"
 
 bool classtest(){
     FootballTeam footballTeam1;
@@ -32,5 +32,6 @@ bool classtest(){
     handballTeam2.print();
     club.add(handballTeam2.clone());
     cout << endl;
+    club.print();
     return true;
 }

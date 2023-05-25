@@ -90,6 +90,12 @@
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/BasketballTeam.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/Club.cpp">
+			<Option target="NHF_Sportegyesulet"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/Club.h">
+			<Option target="NHF_Sportegyesulet"/>
+		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/FootballTeam.cpp">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
@@ -106,12 +112,6 @@
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/Team.h">
-			<Option target="NHF_Sportegyesulet"/>
-		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/Teams.cpp">
-			<Option target="NHF_Sportegyesulet"/>
-		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/Teams.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/string.cpp">

@@ -4,15 +4,15 @@
 using namespace std;
 
 //TODO
-inline void Modifyteam(){
+inline void Modifyteam(Club& club){
     std::cout <<"TODO"<< endl;
 }
 //TODO
-inline void Deleteteam(){
+inline void Deleteteam(Club& club){
     std::cout <<"TODO"<< endl;
 }
 
-void Manageteamsmenu(){
+void Manageteamsmenu(Club& club){
     int input=0;
     while (input!=4){
         cout << "1.Add Teams"<< endl;
@@ -27,11 +27,11 @@ void Manageteamsmenu(){
             cin >> input;
         }
         switch (input) {
-            case 1: Addmenu();
+            case 1: Addmenu(club);
                 break;
-            case 2: Modifyteam();
+            case 2: Modifyteam(club);
                 break;
-            case 3: Deleteteam();
+            case 3: Deleteteam(club);
                 break;
         }
     }

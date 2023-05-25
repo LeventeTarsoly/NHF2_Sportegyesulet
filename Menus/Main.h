@@ -12,10 +12,11 @@
 #include "Add.h"
 #include "Manageteams.h"
 #include "Lists.h"
+#include "../Data/Club.h"
 
-inline void BaseData();
+inline void BaseData(Club& club);
 
-void Mainmenu();
+void Mainmenu(Club& club);
 
 
 #endif //NHF_SPORTEGYESULET_MAIN_H

@@ -2,19 +2,19 @@
 #include "Teamlists.h"
 
 //TODO
-inline void Footballlist(){
+inline void Footballlist(Club& club){
     cout <<"TODO"<< endl;
 }
 //TODO
-inline void Basketballlist(){
+inline void Basketballlist(Club& club){
     std::cout <<"TODO"<< endl;
 }
 //TODO
-inline void Handballlist(){
+inline void Handballlist(Club& club){
     std::cout <<"TODO"<< endl;
 }
 
-void Teamlistsmenu(){
+void Teamlistsmenu(Club& club){
     int input=0;
     while (input!=4){
         cout << "1.List of Football Teams"<< endl;
@@ -29,11 +29,11 @@ void Teamlistsmenu(){
             cin >> input;
         }
         switch (input) {
-            case 1: Footballlist();
+            case 1: Footballlist(club);
                 break;
-            case 2: Basketballlist();
+            case 2: Basketballlist(club);
                 break;
-            case 3: Handballlist();
+            case 3: Handballlist(club);
                 break;
         }
     }

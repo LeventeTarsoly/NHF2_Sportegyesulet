@@ -152,6 +152,30 @@ Data/BasketballTeam.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/BasketballTeam.cpp.s
 .PHONY : Data/BasketballTeam.cpp.s
 
+Data/Club.obj: Data/Club.cpp.obj
+.PHONY : Data/Club.obj
+
+# target to build an object file
+Data/Club.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Club.cpp.obj
+.PHONY : Data/Club.cpp.obj
+
+Data/Club.i: Data/Club.cpp.i
+.PHONY : Data/Club.i
+
+# target to preprocess a source file
+Data/Club.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Club.cpp.i
+.PHONY : Data/Club.cpp.i
+
+Data/Club.s: Data/Club.cpp.s
+.PHONY : Data/Club.s
+
+# target to generate assembly for a file
+Data/Club.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Club.cpp.s
+.PHONY : Data/Club.cpp.s
+
 Data/FootballTeam.obj: Data/FootballTeam.cpp.obj
 .PHONY : Data/FootballTeam.obj
 
@@ -223,30 +247,6 @@ Data/Team.s: Data/Team.cpp.s
 Data/Team.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Team.cpp.s
 .PHONY : Data/Team.cpp.s
-
-Data/Teams.obj: Data/Teams.cpp.obj
-.PHONY : Data/Teams.obj
-
-# target to build an object file
-Data/Teams.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Teams.cpp.obj
-.PHONY : Data/Teams.cpp.obj
-
-Data/Teams.i: Data/Teams.cpp.i
-.PHONY : Data/Teams.i
-
-# target to preprocess a source file
-Data/Teams.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Teams.cpp.i
-.PHONY : Data/Teams.cpp.i
-
-Data/Teams.s: Data/Teams.cpp.s
-.PHONY : Data/Teams.s
-
-# target to generate assembly for a file
-Data/Teams.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Teams.cpp.s
-.PHONY : Data/Teams.cpp.s
 
 Data/string.obj: Data/string.cpp.obj
 .PHONY : Data/string.obj
@@ -500,6 +500,9 @@ help:
 	@echo ... Data/BasketballTeam.obj
 	@echo ... Data/BasketballTeam.i
 	@echo ... Data/BasketballTeam.s
+	@echo ... Data/Club.obj
+	@echo ... Data/Club.i
+	@echo ... Data/Club.s
 	@echo ... Data/FootballTeam.obj
 	@echo ... Data/FootballTeam.i
 	@echo ... Data/FootballTeam.s
@@ -509,9 +512,6 @@ help:
 	@echo ... Data/Team.obj
 	@echo ... Data/Team.i
 	@echo ... Data/Team.s
-	@echo ... Data/Teams.obj
-	@echo ... Data/Teams.i
-	@echo ... Data/Teams.s
 	@echo ... Data/string.obj
 	@echo ... Data/string.i
 	@echo ... Data/string.s

@@ -4,10 +4,11 @@
 
 #ifndef NHF_SPORTEGYESULET_FILES_H
 #define NHF_SPORTEGYESULET_FILES_H
+
+#include "Data/Club.h"
+
 //TODO
-inline void read(){}
-//TODO
-inline void save(){}
+inline Club read();
 
 
 #endif //NHF_SPORTEGYESULET_FILES_H

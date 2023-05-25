@@ -1,8 +1,12 @@
 //TODO Test if the files could be opened and read
-bool filetest(){}
+inline bool filetest(){}
 
 //TODO Test if the derived classes can be construsted and stored in the heterogenous collection
-bool classtest();
+inline bool classtest();
 
 //TODO Test of the functions in the classes
-bool functiontest(){}
+inline bool functiontest(){}
+
+inline void Tests(){
+    std::cout<<"TODO"<< endl;
+}

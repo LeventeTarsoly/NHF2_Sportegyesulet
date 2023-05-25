@@ -10,11 +10,12 @@
 #include <functional>
 #include "../Data/string.h"
 #include "Teamlists.h"
+#include "../Data/Club.h"
 
-inline void Sponsorlist();
-inline void SponsorSupporlist();
-inline void Supportlist();
-void Listsmenu();
+inline void Sponsorlist(Club& club);
+inline void SponsorSupporlist(Club& club);
+inline void Supportlist(Club& club);
+void Listsmenu(Club& club);
 
 
 #endif //NHF_SPORTEGYESULET_LISTS_H

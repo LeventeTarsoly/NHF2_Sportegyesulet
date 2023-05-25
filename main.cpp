@@ -3,7 +3,7 @@
 #include "Data/FootballTeam.h"
 #include "Data/BasketballTeam.h"
 #include "Data/HandballTeam.h"
-#include "Data/Teams.h"
+#include "Data/Club.h"
 #include "string.h"
 #include <locale>
 #include "windows.h"
@@ -20,7 +20,7 @@ int main() {
    SetConsoleOutputCP(1250);
 #endif
     //read();
-    classtest();
-    Mainmenu();
-    //save();
+    Club club;
+    Mainmenu(club);
+    club.save();
 }

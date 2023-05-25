@@ -1,10 +1,3 @@
-//
-// Created by TLevente on 03/05/2023.
-//
-
-#ifndef NHF_SPORTEGYESULET_TEAMS_H
-#define NHF_SPORTEGYESULET_TEAMS_H
-
 #include <vector>
 #include "Team.h"
 
@@ -20,13 +13,14 @@ class Club {
     Node* tail;
 public:
     Club() {
+        head = new Node(nullptr);
+        tail = new Node(nullptr);
         head->next = tail;
         head->prev = nullptr;
-        head->data = nullptr;
         tail->prev = head;
         tail->next = nullptr;
-        tail->data = nullptr;
     }
+
 
     void add(Team* d);
     void pop(Node* p);
@@ -37,7 +31,7 @@ public:
         Node* iter=head;
         while (iter != nullptr) {
             Node* temp = iter->next;
-            free(iter);
+            delete iter;
             iter = temp;
         }
     }
@@ -49,6 +43,5 @@ public:
     int typeteamcnt();
     //TODO
     int typeathletecnt();
+    void save();
 };
-
-#endif //NHF_SPORTEGYESULET_TEAMS_H

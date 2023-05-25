@@ -6,6 +6,7 @@ void HandballTeam::print() {
         cout << "Count: " << this->getcount() << endl;
         cout << "Amount of support: " << this->supportAmount << endl;
         cout << "Getting support since: " << this->supportSince << endl;
+        cout << endl;
     }
 
 }

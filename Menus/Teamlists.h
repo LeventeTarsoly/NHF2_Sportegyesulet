@@ -9,11 +9,12 @@
 #include <map>
 #include <functional>
 #include "../Data/string.h"
+#include "../Data/Club.h"
 
 using namespace std;
-inline void Footballlist();
-inline void Basketballlist();
-inline void Handballlist();
-void Teamlistsmenu();
+inline void Footballlist(Club& club);
+inline void Basketballlist(Club& club);
+inline void Handballlist(Club& club);
+void Teamlistsmenu(Club& club);
 
 #endif //NHF_SPORTEGYESULET_TEAMLISTS_H

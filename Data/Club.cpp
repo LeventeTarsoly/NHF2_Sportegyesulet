@@ -1,6 +1,6 @@
-#include "Teams.h"
+#include "Club.h"
 
-void Club::add(Team* d) {
+/*void add(Team* d) {
     if (head == nullptr) {
         tail = new Node(d);
         head = new Node(d);
@@ -8,6 +8,16 @@ void Club::add(Team* d) {
         tail->prev->next = new Node(d, tail, tail->prev);
         tail->prev = tail->prev->next;
     }
+}*/
+void Club::add(Team* d) {
+    Node* newNode = new Node(d);
+    newNode->data = d;
+    newNode->next = nullptr;
+
+    newNode->next = tail;
+    newNode->prev = tail->prev;
+    tail->prev->next = newNode;
+    tail->prev = newNode;
 }
 
 void Club::pop(Node* p){
@@ -27,8 +37,8 @@ int Club::length(){
 }
 
 void Club::print(){
-    Node* iter=head;
-    while (iter != nullptr) {
+    Node* iter=head->next;
+    while (iter->next != nullptr) {
         iter->data->print();
         iter=iter->next;
     }

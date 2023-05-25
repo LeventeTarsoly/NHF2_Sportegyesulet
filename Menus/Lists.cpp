@@ -3,19 +3,19 @@
 
 
 //TODO
-inline void Sponsorlist(){
+inline void Sponsorlist(Club& club){
     std::cout <<"TODO"<< endl;
 }
 //TODO
-inline void SponsorSupporlist(){
+inline void SponsorSupporlist(Club& club){
     std::cout <<"TODO"<< endl;
 }
 //TODO
-inline void Supportlist(){
+inline void Supportlist(Club& club){
     std::cout <<"TODO"<< endl;
 }
 
-void Listsmenu(){
+void Listsmenu(Club& club){
     int input=0;
     while (input!=5){
         cout << "1.Group lists"<< endl;
@@ -31,13 +31,13 @@ void Listsmenu(){
             cin >> input;
         }
         switch (input) {
-            case 1: Teamlistsmenu();
+            case 1: Teamlistsmenu(club);
                 break;
-            case 2: Sponsorlist();
+            case 2: Sponsorlist(club);
                 break;
-            case 3: SponsorSupporlist();
+            case 3: SponsorSupporlist(club);
                 break;
-            case 4: Supportlist();
+            case 4: Supportlist(club);
                 break;
         }
     }

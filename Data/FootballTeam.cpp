@@ -5,6 +5,7 @@ void FootballTeam::print() {
     cout << "Count: " << this->getcount() << endl;
     cout << "Trainers: " << this->trainers[0] << " , " << this->trainers[1] << endl;
     cout << "Sponsor name: " << this->sponsor << endl;
+    cout << endl;
 }
 //TODO
 void FootballTeam::modify(){}

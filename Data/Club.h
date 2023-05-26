@@ -1,6 +1,9 @@
 #include <vector>
 #include "Team.h"
 
+#ifndef NHF_SPORTEGYESULET_CLUB_H
+#define NHF_SPORTEGYESULET_CLUB_H
+
 struct Node {
     Team* data;
     Node* next;
@@ -20,7 +23,9 @@ public:
         tail->prev = head;
         tail->next = nullptr;
     }
-
+    Node* gethead(){
+        return head;
+    }
 
     void add(Team* d);
     void pop(Node* p);
@@ -45,3 +50,5 @@ public:
     int typeathletecnt();
     void save();
 };
+
+#endif // NHF_SPORTEGYESULET_CLUB_H

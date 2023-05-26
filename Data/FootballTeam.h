@@ -19,6 +19,12 @@ public:
         trainers[0]=t[0];
         trainers[1]=t[1];
     }
+    String gettrainer1(){
+        return trainers[0];
+    }
+    String gettrainer2(){
+        return trainers[1];
+    }
     void setsponsor(String& s){
         this->sponsor=s;
     }

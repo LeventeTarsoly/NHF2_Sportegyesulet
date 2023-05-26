@@ -5,11 +5,49 @@ using namespace std;
 
 //TODO
 inline void Modifyteam(Club& club){
-    std::cout <<"TODO"<< endl;
+    Node* iter = club.gethead()->next;
+    int cnt = 1;
+    while (iter->next != nullptr) {
+        std::cout << cnt << ". " << iter->data->getname() << std::endl;
+        cnt++;
+        iter=iter->next;
+    }
+    int input=0;
+    cin >> input;
+    while(input>cnt || input<1){
+        cout << "Wrong input"<< endl;
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        cin >> input;
+    }
+    iter = club.gethead()->next;
+    for (int i = 1; i < input; ++i) {
+        iter=iter->next;
+    }
+    iter->data->modify();
 }
-//TODO
+
 inline void Deleteteam(Club& club){
-    std::cout <<"TODO"<< endl;
+    Node* iter = club.gethead()->next;
+    int cnt = 1;
+    while (iter->next != nullptr) {
+        std::cout << cnt << ". " << iter->data->getname() << std::endl;
+        cnt++;
+        iter=iter->next;
+    }
+    int input=0;
+    cin >> input;
+    while(input>cnt || input<1){
+        cout << "Wrong input"<< endl;
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        cin >> input;
+    }
+    iter = club.gethead()->next;
+    for (int i = 1; i < input; ++i) {
+        iter=iter->next;
+    }
+    club.pop(iter);
 }
 
 void Manageteamsmenu(Club& club){

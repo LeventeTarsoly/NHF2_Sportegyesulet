@@ -8,15 +8,14 @@ Club read() {
 
 void Club::save() {
     //open the file for write
-    std::ofstream MyFile("club.txt");
+    std::ofstream File("club.txt");
 
     // Write to the file
     Node* iter=head->next;
     while (iter->next != nullptr) {
         
     }
-    MyFile << "Files can be tricky, but it is fun enough!";
-
+    File << "";
     // Close the file
-    MyFile.close();
+    File.close();
 }

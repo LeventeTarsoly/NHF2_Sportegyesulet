@@ -4,7 +4,6 @@
 
 #ifndef NHF_SPORTEGYESULET_TEAM_H
 #define NHF_SPORTEGYESULET_TEAM_H
-#include <string>
 #include "string.h"
 
 
@@ -29,6 +28,7 @@ public:
         this->count=c;
     }
     bool cmp();
+    void printname();
 };
 
 

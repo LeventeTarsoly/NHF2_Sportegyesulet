@@ -22,5 +22,5 @@ int main() {
     //read();
     Club club;
     Mainmenu(club);
-    club.save();
+    //club.save();
 }

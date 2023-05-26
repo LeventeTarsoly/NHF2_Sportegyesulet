@@ -1,5 +1,6 @@
 #include <limits>
 #include "BasketballTeam.h"
+#include <fstream>
 
 void BasketballTeam::print() {
     cout << "Name: " << this->getname() << endl;
@@ -58,4 +59,8 @@ void BasketballTeam::modify(){
 Team* BasketballTeam::clone(){
     Team *result =new BasketballTeam(*this);
     return result;
+}
+
+void BasketballTeam::save(std::ofstream& File) {
+    File << "B/" << getname()<<"/"<<getcount()<<"/"<<pompomName<<"/"<<pompomCount<<endl;
 }

@@ -1,4 +1,5 @@
 #include <limits>
+#include <fstream>
 #include "HandballTeam.h"
 using namespace std;
 void HandballTeam::print() {
@@ -66,4 +67,8 @@ void HandballTeam::modify(){
 Team* HandballTeam::clone(){
     Team *result =new HandballTeam(*this);
     return result;
+}
+
+void HandballTeam::save(std::ofstream& File) {
+    File << "H/" << getname()<<"/"<<getcount()<<"/"<<supportAmount<<"/"<<supportSince<<endl;
 }

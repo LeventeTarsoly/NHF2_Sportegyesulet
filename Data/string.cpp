@@ -31,6 +31,12 @@ String::String(const char* p) {
     strcpy(pData, p);
 }
 
+String::String(std::string &str){
+    len = str.length();
+    pData = new char[len + 1];
+    std::strcpy(pData, str.c_str());
+}
+
 // Másoló konstruktor
 String::String(const String& s1) {
     // Meghatározzuk a hosszát

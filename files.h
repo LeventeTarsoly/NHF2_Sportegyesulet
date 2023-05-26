@@ -8,7 +8,7 @@
 #include "Data/Club.h"
 
 //TODO
-inline Club read();
+Club read();
 
 
 #endif //NHF_SPORTEGYESULET_FILES_H

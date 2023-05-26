@@ -1,14 +1,5 @@
 #include "Club.h"
 
-/*void add(Team* d) {
-    if (head == nullptr) {
-        tail = new Node(d);
-        head = new Node(d);
-    } else {
-        tail->prev->next = new Node(d, tail, tail->prev);
-        tail->prev = tail->prev->next;
-    }
-}*/
 void Club::add(Team* d) {
     Node* newNode = new Node(d);
     newNode->data = d;

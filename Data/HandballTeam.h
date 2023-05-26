@@ -19,6 +19,7 @@ public:
     int setsupportSince(int ss) {
         this->supportSince=ss;
     }
+    void save(std::ofstream& File);
     void print();
     void modify();
     Team* clone();

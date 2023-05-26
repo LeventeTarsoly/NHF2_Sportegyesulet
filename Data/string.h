@@ -25,10 +25,12 @@ public:
 
     /// Konstruktor: egy nullával lezárt char sorozatból (createStringFromCharStr)
     String(const char* p);
+    String(std::string& str);
 
     /// MÁSOLÓ konstruktor, ami a createStringFromString-ből keletkezett
     /// @param s1 - String, amiből létrehozzuk az új String-et
     String(const String& s1);
+
 
     /// Destruktor (disposeString)
     ~String() { delete[] pData; }

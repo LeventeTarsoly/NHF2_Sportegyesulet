@@ -19,8 +19,7 @@ int main() {
    SetConsoleCP(1250);
    SetConsoleOutputCP(1250);
 #endif
-    //read();
-    Club club;
+    Club club = read();
     Mainmenu(club);
-    //club.save();
+    club.save();
 }

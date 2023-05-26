@@ -1,4 +1,5 @@
 #include <limits>
+#include <fstream>
 #include "FootballTeam.h"
 
 void FootballTeam::print() {
@@ -65,4 +66,8 @@ int FootballTeam::getsupport(){}
 Team* FootballTeam::clone(){
     Team *result =new FootballTeam(*this);
     return result;
+}
+
+void FootballTeam::save(std::ofstream& File) {
+    File << "F/" << getname()<<"/"<<getcount()<<"/"<<trainers[0]<<"/"<<trainers[1]<<"/"<<sponsor<<endl;
 }

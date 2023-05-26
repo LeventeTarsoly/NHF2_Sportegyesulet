@@ -20,6 +20,7 @@ public:
     void setpompomName(String& n){
         this->pompomName=n;
     }
+    void save(std::ofstream& File);
     void print();
     void modify();
     Team* clone();

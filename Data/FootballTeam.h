@@ -28,6 +28,7 @@ public:
     void setsponsor(String& s){
         this->sponsor=s;
     }
+    void save(std::ofstream& File);
     void print();
     void modify();
     int getsupport();

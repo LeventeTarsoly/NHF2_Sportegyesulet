@@ -1,3 +1,3 @@
-C:/Users/TLevente/Prog2/NHF2_Sportegyesulet/cmake-build-debug/CMakeFiles/NHF_Sportegyesulet.dir
-C:/Users/TLevente/Prog2/NHF2_Sportegyesulet/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/TLevente/Prog2/NHF2_Sportegyesulet/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/cmake-build-debug/CMakeFiles/NHF_Sportegyesulet.dir
+C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -36,11 +36,23 @@ void Club::print(){
 }
 
 int Club::totalprice() {
-    return 0;
+    Node* iter=head->next;
+    int sum=0;
+    while (iter->next != nullptr) {
+        sum+=iter->data->getprice();
+        iter=iter->next;
+    }
+    return sum;
 }
 
 int Club::totalathletes() {
-    return 0;
+    Node* iter=head->next;
+    int sum=0;
+    while (iter->next != nullptr) {
+        sum+=iter->data->getcount();
+        iter=iter->next;
+    }
+    return sum;
 }
 
 int Club::typeteamcnt() {

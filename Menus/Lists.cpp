@@ -2,15 +2,15 @@
 #include "Lists.h"
 
 
-//TODO
-inline void Sponsorlist(Club& club){
+//TODO Sponsorlist
+inline void Sponsorlist(Club& club, String& name){
     std::cout <<"TODO"<< endl;
 }
-//TODO
+//TODO SponsorSupporlist
 inline void SponsorSupporlist(Club& club){
     std::cout <<"TODO"<< endl;
 }
-//TODO
+//TODO Supportlist
 inline void Supportlist(Club& club){
     std::cout <<"TODO"<< endl;
 }

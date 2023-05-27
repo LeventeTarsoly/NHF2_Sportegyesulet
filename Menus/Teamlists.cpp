@@ -1,15 +1,15 @@
 #include <limits>
 #include "Teamlists.h"
 
-//TODO
+//TODO Footballlist(
 inline void Footballlist(Club& club){
     cout <<"TODO"<< endl;
 }
-//TODO
+//TODO Basketballlist
 inline void Basketballlist(Club& club){
     std::cout <<"TODO"<< endl;
 }
-//TODO
+//TODO Handballlist
 inline void Handballlist(Club& club){
     std::cout <<"TODO"<< endl;
 }

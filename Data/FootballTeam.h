@@ -31,7 +31,7 @@ public:
     void save(std::ofstream& File);
     void print();
     void modify();
-    int getsupport();
+    int getprice();
     Team* clone();
 
 };

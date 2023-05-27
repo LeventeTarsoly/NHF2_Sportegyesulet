@@ -4,9 +4,9 @@
 
 #ifndef NHF_SPORTEGYESULET_FILES_H
 #define NHF_SPORTEGYESULET_FILES_H
-//TODO
+
 void Read(){}
-//TODO
+
 void Save(){}
 
 

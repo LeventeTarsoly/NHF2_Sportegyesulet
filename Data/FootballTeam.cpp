@@ -10,7 +10,6 @@ void FootballTeam::print() {
     cout << endl;
 }
 
-//TODO
 void FootballTeam::modify(){
     cout <<"1. "<< "Name: " << this->getname() << endl;
     cout <<"2. "<< "Count: " << this->getcount() << endl;
@@ -61,13 +60,25 @@ void FootballTeam::modify(){
     }
 }
 
-//TODO
-int FootballTeam::getsupport(){}
+int FootballTeam::getprice(){
+    std::ifstream File("sponsors.txt");
+    std::string line;
+    while (std::getline(File, line)) {
+        char name[50];
+        int supp;
+        std::sscanf(line.c_str(), "%s /%i", name, &supp);
+        String str(name);
+        if(this->getname().cmp(str))
+            return supp;
+    }
+    return 0;
+}
+
 Team* FootballTeam::clone(){
     Team *result =new FootballTeam(*this);
     return result;
 }
 
 void FootballTeam::save(std::ofstream& File) {
-    File << "F/" << getname()<<"/"<<getcount()<<"/"<<trainers[0]<<"/"<<trainers[1]<<"/"<<sponsor<<endl;
+    File << "F/" << getname()<<" /"<<getcount()<<"/"<<trainers[0]<<" /"<<trainers[1]<<" /"<<sponsor<<endl;
 }

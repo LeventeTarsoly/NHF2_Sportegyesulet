@@ -40,13 +40,13 @@ public:
             iter = temp;
         }
     }
-    //TODO
+
     int totalprice();
-    //TODO
+
     int totalathletes();
-    //TODO
+    //TODO typeteamcnt();
     int typeteamcnt();
-    //TODO
+    //TODO typeathletecnt();
     int typeathletecnt();
     void save();
 };

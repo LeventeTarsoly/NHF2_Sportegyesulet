@@ -3,7 +3,6 @@
 
 using namespace std;
 
-//TODO
 inline void Modifyteam(Club& club){
     Node* iter = club.gethead()->next;
     int cnt = 1;
@@ -12,6 +11,7 @@ inline void Modifyteam(Club& club){
         cnt++;
         iter=iter->next;
     }
+    std::cout << cnt << ". Cancel" << std::endl;
     int input=0;
     cin >> input;
     while(input>cnt || input<1){
@@ -20,6 +20,8 @@ inline void Modifyteam(Club& club){
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cin >> input;
     }
+    if(input==cnt)
+        return;
     iter = club.gethead()->next;
     for (int i = 1; i < input; ++i) {
         iter=iter->next;
@@ -35,6 +37,7 @@ inline void Deleteteam(Club& club){
         cnt++;
         iter=iter->next;
     }
+    std::cout << cnt << ". Cancel" << std::endl;
     int input=0;
     cin >> input;
     while(input>cnt || input<1){
@@ -43,6 +46,8 @@ inline void Deleteteam(Club& club){
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cin >> input;
     }
+    if(input==cnt)
+        return;
     iter = club.gethead()->next;
     for (int i = 1; i < input; ++i) {
         iter=iter->next;

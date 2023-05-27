@@ -16,6 +16,7 @@ public:
     virtual void modify()=0;
     virtual Team* clone()=0;
     virtual void save(std::ofstream& File)=0;
+    virtual int getprice()=0;
     String getname(){
         return name;
     }

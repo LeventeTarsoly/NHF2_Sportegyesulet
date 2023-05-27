@@ -4,7 +4,7 @@
 #include "Manageteams.h"
 #include "../test.h"
 
-//TODO
+//TODO BaseData
 inline void BaseData(Club& club){
     std::cout <<"TODO"<< endl;
 }

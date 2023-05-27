@@ -70,5 +70,15 @@ Team* HandballTeam::clone(){
 }
 
 void HandballTeam::save(std::ofstream& File) {
-    File << "H/" << getname()<<"/"<<getcount()<<"/"<<supportAmount<<"/"<<supportSince<<endl;
+    File << "H/" << getname()<<" /"<<getcount()<<"/"<<supportAmount<<"/"<<supportSince<<endl;
+}
+
+int HandballTeam::getprice() {
+    return supportAmount;
+}
+int HandballTeam::getsupport() {
+    // current date/time based on current system
+    time_t now = time(0);
+    tm *ltm = localtime(&now);
+    return (ltm->tm_year-supportSince)*supportAmount;
 }

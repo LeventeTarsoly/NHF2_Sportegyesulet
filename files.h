@@ -7,7 +7,6 @@
 
 #include "Data/Club.h"
 
-//TODO
 Club read();
 
 

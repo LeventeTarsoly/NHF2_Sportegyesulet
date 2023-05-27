@@ -23,6 +23,7 @@ public:
     void save(std::ofstream& File);
     void print();
     void modify();
+    int getprice();
     Team* clone();
 };
 

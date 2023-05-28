@@ -3,14 +3,16 @@
 
 using namespace std;
 
-inline void Modifyteam(Club& club){
+Node* choose(Club& club){
     Node* iter = club.gethead()->next;
     int cnt = 1;
+    ///kiírja a csapatokat sorszámmal
     while (iter->next != nullptr) {
         std::cout << cnt << ". " << iter->data->getname() << std::endl;
         cnt++;
         iter=iter->next;
     }
+    ///+1 menüpont a kilépéshez
     std::cout << cnt << ". Cancel" << std::endl;
     int input=0;
     cin >> input;
@@ -20,39 +22,29 @@ inline void Modifyteam(Club& club){
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
         cin >> input;
     }
+    ///ha megegyezik kilép, mert az az utolsó menüpont
     if(input==cnt)
-        return;
+        return nullptr;
+    ///elmegy a listában az adott elemig
     iter = club.gethead()->next;
     for (int i = 1; i < input; ++i) {
         iter=iter->next;
     }
-    iter->data->modify();
+    return iter;
+}
+
+inline void Modifyteam(Club& club){
+    Node* chosen= choose(club);
+    if(chosen == nullptr)
+        return;
+    chosen->data->modify();
 }
 
 inline void Deleteteam(Club& club){
-    Node* iter = club.gethead()->next;
-    int cnt = 1;
-    while (iter->next != nullptr) {
-        std::cout << cnt << ". " << iter->data->getname() << std::endl;
-        cnt++;
-        iter=iter->next;
-    }
-    std::cout << cnt << ". Cancel" << std::endl;
-    int input=0;
-    cin >> input;
-    while(input>cnt || input<1){
-        cout << "Wrong input"<< endl;
-        cin.clear();
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        cin >> input;
-    }
-    if(input==cnt)
+    Node* chosen= choose(club);
+    if(chosen == nullptr)
         return;
-    iter = club.gethead()->next;
-    for (int i = 1; i < input; ++i) {
-        iter=iter->next;
-    }
-    club.pop(iter);
+    club.pop(chosen);
 }
 
 void Manageteamsmenu(Club& club){

@@ -224,30 +224,6 @@ Data/HandballTeam.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/HandballTeam.cpp.s
 .PHONY : Data/HandballTeam.cpp.s
 
-Data/Team.obj: Data/Team.cpp.obj
-.PHONY : Data/Team.obj
-
-# target to build an object file
-Data/Team.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Team.cpp.obj
-.PHONY : Data/Team.cpp.obj
-
-Data/Team.i: Data/Team.cpp.i
-.PHONY : Data/Team.i
-
-# target to preprocess a source file
-Data/Team.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Team.cpp.i
-.PHONY : Data/Team.cpp.i
-
-Data/Team.s: Data/Team.cpp.s
-.PHONY : Data/Team.s
-
-# target to generate assembly for a file
-Data/Team.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Data/Team.cpp.s
-.PHONY : Data/Team.cpp.s
-
 Data/string.obj: Data/string.cpp.obj
 .PHONY : Data/string.obj
 
@@ -461,9 +437,6 @@ help:
 	@echo ... Data/HandballTeam.obj
 	@echo ... Data/HandballTeam.i
 	@echo ... Data/HandballTeam.s
-	@echo ... Data/Team.obj
-	@echo ... Data/Team.i
-	@echo ... Data/Team.s
 	@echo ... Data/string.obj
 	@echo ... Data/string.i
 	@echo ... Data/string.s

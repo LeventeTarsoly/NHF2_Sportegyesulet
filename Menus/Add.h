@@ -10,10 +10,13 @@
 #include <functional>
 #include "../Data/string.h"
 #include "../Data/Club.h"
-
+///Focicsapat hozzáadása
 inline void Addfootballteam(Club& club);
+///Kosárcsapat hozzáadása
 inline void Addbasketballteam(Club& club);
+///Kézicsapat hozzáadása
 inline void Addhandballteam(Club& club);
+///Hozzáadás menüje
 void Addmenu(Club& club);
 
 

@@ -13,7 +13,7 @@ void filetest(){
     File.close();
     Club club = read();
 
-    TEST(Test1, Readtest){
+    TEST(filetest, Readtest){
             EXPECT_DOUBLE_EQ(5, club.length()); ///length
             Node* iter = club.gethead()->next;
 
@@ -32,7 +32,7 @@ void filetest(){
             EXPECT_DOUBLE_EQ(5, iter->data->getprice()); ///price
     }END
 
-    TEST(Test1, Savetest){
+    TEST(filetest, Savetest){
             club.save();
             std::ifstream file("club.txt");
             std::string line;
@@ -51,7 +51,7 @@ void filetest(){
 
 void classtest(){
 Club club;
-TEST(Test1, FootballTest){
+TEST(classtest, FootballTest){
         FootballTeam footballTeam1;
         EXPECT_STREQ("", footballTeam1.getname().c_str());///def constr name
         EXPECT_DOUBLE_EQ(0, footballTeam1.getcount());///def constr cnt
@@ -92,7 +92,7 @@ TEST(Test1, FootballTest){
         club.add(footballTeam2.clone());
 }END
 
-TEST(Test1, BasketballTest){
+TEST(classtest, BasketballTest){
         BasketballTeam basketballTeam1;
         EXPECT_STREQ("", basketballTeam1.getname().c_str());///def constr name
         EXPECT_DOUBLE_EQ(0, basketballTeam1.getcount());///def constr cnt
@@ -129,7 +129,7 @@ TEST(Test1, BasketballTest){
         club.add(basketballTeam2.clone());
 }END
 
-TEST(Test1, HandballTest){
+TEST(classtest, HandballTest){
         HandballTeam handballTeam1;
 
         EXPECT_STREQ("", handballTeam1.getname().c_str());///def constr name
@@ -167,7 +167,7 @@ TEST(Test1, HandballTest){
         club.add(handballTeam2.clone());
 }END
 
-TEST(Test1, Clubtest){
+TEST(classtest, Clubtest){
         EXPECT_DOUBLE_EQ(8, club.length()); ///length
         Node* iter = club.gethead()->next;
 
@@ -199,6 +199,9 @@ TEST(Test1, Clubtest){
         EXPECT_STREQ("h", iter->data->getname().c_str());///name
         EXPECT_DOUBLE_EQ(20, iter->data->getcount());///cnt
         EXPECT_DOUBLE_EQ(200, iter->data->getprice()); ///price
+
+        EXPECT_DOUBLE_EQ(63, club.totalathletes());///totalathletes
+        EXPECT_DOUBLE_EQ(500, club.totalprice());///totalprice
 }END
     cout << endl;
 }

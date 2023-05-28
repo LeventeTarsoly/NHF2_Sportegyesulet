@@ -108,9 +108,6 @@
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/HandballTeam.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/Team.cpp">
-			<Option target="NHF_Sportegyesulet"/>
-		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Data/Team.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>

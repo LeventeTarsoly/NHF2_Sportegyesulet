@@ -7,7 +7,7 @@
 
 #include "Data/Club.h"
 
+///Fileb?l beolvasás
 Club read();
-
 
 #endif //NHF_SPORTEGYESULET_FILES_H

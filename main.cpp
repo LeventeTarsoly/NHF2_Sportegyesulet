@@ -23,3 +23,4 @@ int main() {
     Mainmenu(club);
     club.save();
 }
+

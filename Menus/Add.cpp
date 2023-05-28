@@ -11,9 +11,11 @@
 using namespace std;
 
 inline void Addfootballteam(Club& club){
+    ///Név
     cout << "Name: ";
     String n;
     cin >> n;
+    ///Darabszám
     int c;
     cout << "Count: ";
     while (!(cin >> c)){
@@ -21,13 +23,23 @@ inline void Addfootballteam(Club& club){
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
+    ///Edz?1
     String str;
+    String temp;
     cout << "Trainer 1: ";
-    cin >> str;
+    cin>>str;
+    cin>>temp;
+    str=str+" ";
+    str=str+temp;
     String str2;
+    ///Edz?2
     cout << "Trainer 2: ";
     cin >> str2;
+    cin>>temp;
+    str2=str2+" ";
+    str2=str2+temp;
     String tr[2] {str, str2};
+    ///Szponzor
     cout << "Sponsor name: ";
     cin >> str;
     FootballTeam footballTeam(n, c, tr, str);
@@ -35,10 +47,12 @@ inline void Addfootballteam(Club& club){
 }
 
 inline void Addbasketballteam(Club& club){
+    ///Név
     cout << "Name: ";
     String n;
     cin >> n;
     int c;
+    ///Darabszám
     cout << "Count: ";
     while (!(cin >> c)){
         cout << "Wrong input"<< endl;
@@ -46,6 +60,7 @@ inline void Addbasketballteam(Club& club){
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
     int ppc;
+    ///Pompom darabszám
     cout << "Pompom count: ";
     while (!(cin >> ppc)){
         cout << "Wrong input"<< endl;
@@ -53,6 +68,7 @@ inline void Addbasketballteam(Club& club){
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
     String ppn;
+    ///Pompom csapatnév
     cout << "Pompom team name: ";
     cin >> ppn;
     BasketballTeam basketballTeam(n,c,ppc,ppn);
@@ -60,10 +76,12 @@ inline void Addbasketballteam(Club& club){
 }
 
 inline void Addhandballteam(Club& club){
+    ///Név
     cout << "Name: ";
     String n;
     cin >> n;
     int c;
+    ///Darabszám
     cout << "Count: ";
     while (!(cin >> c)){
         cout << "Wrong input"<< endl;
@@ -71,6 +89,7 @@ inline void Addhandballteam(Club& club){
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
     int sa;
+    ///Támogatás értéke
     cout << "Amount of support: ";
     while (!(cin >> sa)){
         cout << "Wrong input"<< endl;
@@ -78,6 +97,7 @@ inline void Addhandballteam(Club& club){
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
     int ss;
+    ///Támogatás mióta
     cout << "Getting support since: ";
     while (!(cin >> ss)){
         cout << "Wrong input"<< endl;

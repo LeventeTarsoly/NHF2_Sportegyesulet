@@ -36,7 +36,7 @@ public:
     void modify();
     int getprice();
     Team* clone();
-
+    ~FootballTeam(){}
 };
 
 

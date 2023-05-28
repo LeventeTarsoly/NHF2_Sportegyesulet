@@ -12,9 +12,9 @@
 #include "Add.h"
 #include "Manageteams.h"
 #include "../Data/Club.h"
-
+///Alapadatok kiírása
 inline void BaseData(Club& club);
-
+///F?menü
 void Mainmenu(Club& club);
 
 

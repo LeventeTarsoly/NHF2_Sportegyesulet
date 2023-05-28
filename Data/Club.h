@@ -26,23 +26,34 @@ public:
     Node* gethead(){
         return head;
     }
-
+    /// Paraméterként adott csapatot hozzáadja a listához
+    /// @param d Team pointer a csapatról
     void add(Team* d);
+    /// Paraméterként adott listaelemet törli a listáról
+    /// @param p listaelem pointer a csapatról
     void pop(Node* p);
+    ///Visszaadja a lista hosszát headdel és taillel együtt
+    /// @return int hossz
     int length();
+    ///Kiírja a lista elemeit sorban
     void print();
 
     ~Club(){
         Node* iter=head;
         while (iter != nullptr) {
             Node* temp = iter->next;
+            delete iter->data;
             delete iter;
             iter = temp;
         }
     }
-
+    ///Visszaadja a csapatok évi bevételét
+    /// @return int bevétel
     int totalprice();
+    ///Visszaadja a csapatok tagjainak számát
+    /// @return int
     int totalathletes();
+    ///Fileba menti a csapatokat
     void save();
 };
 

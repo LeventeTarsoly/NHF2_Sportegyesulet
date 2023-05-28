@@ -21,7 +21,7 @@ Club read() {
             throw "file_open_error";
         }
         if (std::getline(iss, line, '/')) {
-            type = line[0];  // Extract the type character
+            type = line[0];
             std::string tr1, tr2, s;
             if (type == 'F') {
                 if (std::getline(iss, name, '/') &&
@@ -29,6 +29,7 @@ Club read() {
                     std::getline(iss, tr1, '/') &&
                     std::getline(iss, tr2, '/') &&
                     std::getline(iss, s, '/')) {
+
                     String tr[2] = {tr1, tr2};
                     Team *temp = new FootballTeam(name, std::stoi(c), tr, s);
                     club.add(temp->clone());
@@ -42,6 +43,7 @@ Club read() {
                     std::getline(iss, c, '/') &&
                     std::getline(iss, ppc, '/') &&
                     std::getline(iss, ppn, '/')) {
+
                     Team *temp = new BasketballTeam(name, std::stoi(c), std::stoi(ppc), ppn);
                     club.add(temp->clone());
                     delete temp;
@@ -53,6 +55,7 @@ Club read() {
                     std::getline(iss, c, '/') &&
                     std::getline(iss, sa, '/') &&
                     std::getline(iss, ss, '/')) {
+
                     Team *temp = new HandballTeam(name, std::stoi(c), std::stoi(sa), std::stoi(ss));
                     club.add(temp->clone());
                     delete temp;
@@ -67,17 +70,14 @@ Club read() {
 
 
 void Club::save() {
-    //open the file for write
     std::ofstream File("club.txt");
     if (!File.is_open()) {
         throw "file_open_error";
     }
-    // Write to the file
     Node* iter=head->next;
     while (iter->next != nullptr) {
         iter->data->save(File);
         iter=iter->next;
     }
-    // Close the file
     File.close();
 }

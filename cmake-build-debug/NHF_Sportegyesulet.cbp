@@ -126,12 +126,6 @@
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Add.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Lists.cpp">
-			<Option target="NHF_Sportegyesulet"/>
-		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Lists.h">
-			<Option target="NHF_Sportegyesulet"/>
-		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Main.cpp">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
@@ -142,12 +136,6 @@
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Manageteams.h">
-			<Option target="NHF_Sportegyesulet"/>
-		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Teamlists.cpp">
-			<Option target="NHF_Sportegyesulet"/>
-		</Unit>
-		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/Menus/Teamlists.h">
 			<Option target="NHF_Sportegyesulet"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/NHF2_Sportegyesulet/files.cpp">

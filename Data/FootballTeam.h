@@ -25,6 +25,9 @@ public:
     String gettrainer2(){
         return trainers[1];
     }
+    String getsponsor(){
+        return sponsor;
+    }
     void setsponsor(String& s){
         this->sponsor=s;
     }

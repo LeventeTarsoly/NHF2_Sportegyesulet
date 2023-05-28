@@ -19,6 +19,12 @@ public:
     int setsupportSince(int ss) {
         this->supportSince=ss;
     }
+    int getsupportAmount(){
+        return supportAmount;
+    }
+    int getsupportSince(){
+        return supportSince;
+    }
     void save(std::ofstream& File);
     void print();
     void modify();

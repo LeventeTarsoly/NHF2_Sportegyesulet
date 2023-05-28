@@ -4,10 +4,16 @@
 #include "Manageteams.h"
 #include "../test.h"
 
+using namespace std;
 //TODO BaseData
 inline void BaseData(Club& club){
     std::cout <<"TODO"<< endl;
 }
+
+void List(Club& club){
+
+}
+
 
 void Mainmenu(Club& club){
     std::cout << "  _____   _   _     _       ____                           _              ____   _           _     \n"
@@ -33,7 +39,7 @@ void Mainmenu(Club& club){
         switch (input) {
             case 1: Manageteamsmenu(club);
                 break;
-            case 2: Listsmenu(club);
+            case 2: List(club);
                 break;
             case 3: BaseData(club);
                 break;

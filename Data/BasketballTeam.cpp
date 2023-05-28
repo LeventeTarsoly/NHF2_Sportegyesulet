@@ -62,7 +62,7 @@ Team* BasketballTeam::clone(){
 }
 
 void BasketballTeam::save(std::ofstream& File) {
-    File << "B/" << getname()<<" /"<<getcount()<<"/"<<pompomName<<" /"<<pompomCount<<endl;
+    File << "B/" << getname()<<"/"<<getcount()<<"/"<<pompomCount<<"/"<<pompomName<<endl;
 }
 
 int BasketballTeam::getprice() {

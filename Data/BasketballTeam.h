@@ -20,6 +20,12 @@ public:
     void setpompomName(String& n){
         this->pompomName=n;
     }
+    int getpompomCount(){
+        return pompomCount;
+    }
+    String getpompomName(){
+        return pompomName;
+    }
     void save(std::ofstream& File);
     void print();
     void modify();

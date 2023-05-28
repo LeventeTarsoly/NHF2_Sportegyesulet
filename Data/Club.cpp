@@ -54,11 +54,3 @@ int Club::totalathletes() {
     }
     return sum;
 }
-
-int Club::typeteamcnt() {
-    return 0;
-}
-
-int Club::typeathletecnt() {
-    return 0;
-}

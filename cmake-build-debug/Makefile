@@ -296,30 +296,6 @@ Menus/Add.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Add.cpp.s
 .PHONY : Menus/Add.cpp.s
 
-Menus/Lists.obj: Menus/Lists.cpp.obj
-.PHONY : Menus/Lists.obj
-
-# target to build an object file
-Menus/Lists.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Lists.cpp.obj
-.PHONY : Menus/Lists.cpp.obj
-
-Menus/Lists.i: Menus/Lists.cpp.i
-.PHONY : Menus/Lists.i
-
-# target to preprocess a source file
-Menus/Lists.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Lists.cpp.i
-.PHONY : Menus/Lists.cpp.i
-
-Menus/Lists.s: Menus/Lists.cpp.s
-.PHONY : Menus/Lists.s
-
-# target to generate assembly for a file
-Menus/Lists.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Lists.cpp.s
-.PHONY : Menus/Lists.cpp.s
-
 Menus/Main.obj: Menus/Main.cpp.obj
 .PHONY : Menus/Main.obj
 
@@ -367,30 +343,6 @@ Menus/Manageteams.s: Menus/Manageteams.cpp.s
 Menus/Manageteams.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Manageteams.cpp.s
 .PHONY : Menus/Manageteams.cpp.s
-
-Menus/Teamlists.obj: Menus/Teamlists.cpp.obj
-.PHONY : Menus/Teamlists.obj
-
-# target to build an object file
-Menus/Teamlists.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Teamlists.cpp.obj
-.PHONY : Menus/Teamlists.cpp.obj
-
-Menus/Teamlists.i: Menus/Teamlists.cpp.i
-.PHONY : Menus/Teamlists.i
-
-# target to preprocess a source file
-Menus/Teamlists.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Teamlists.cpp.i
-.PHONY : Menus/Teamlists.cpp.i
-
-Menus/Teamlists.s: Menus/Teamlists.cpp.s
-.PHONY : Menus/Teamlists.s
-
-# target to generate assembly for a file
-Menus/Teamlists.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\NHF_Sportegyesulet.dir\build.make CMakeFiles/NHF_Sportegyesulet.dir/Menus/Teamlists.cpp.s
-.PHONY : Menus/Teamlists.cpp.s
 
 files.obj: files.cpp.obj
 .PHONY : files.obj
@@ -518,18 +470,12 @@ help:
 	@echo ... Menus/Add.obj
 	@echo ... Menus/Add.i
 	@echo ... Menus/Add.s
-	@echo ... Menus/Lists.obj
-	@echo ... Menus/Lists.i
-	@echo ... Menus/Lists.s
 	@echo ... Menus/Main.obj
 	@echo ... Menus/Main.i
 	@echo ... Menus/Main.s
 	@echo ... Menus/Manageteams.obj
 	@echo ... Menus/Manageteams.i
 	@echo ... Menus/Manageteams.s
-	@echo ... Menus/Teamlists.obj
-	@echo ... Menus/Teamlists.i
-	@echo ... Menus/Teamlists.s
 	@echo ... files.obj
 	@echo ... files.i
 	@echo ... files.s

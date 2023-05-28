@@ -44,10 +44,6 @@ public:
     int totalprice();
 
     int totalathletes();
-    //TODO typeteamcnt();
-    int typeteamcnt();
-    //TODO typeathletecnt();
-    int typeathletecnt();
     void save();
 };
 

@@ -70,7 +70,7 @@ Team* HandballTeam::clone(){
 }
 
 void HandballTeam::save(std::ofstream& File) {
-    File << "H/" << getname()<<" /"<<getcount()<<"/"<<supportAmount<<"/"<<supportSince<<endl;
+    File << "H/" << getname()<<"/"<<getcount()<<"/"<<supportAmount<<"/"<<supportSince<<endl;
 }
 
 int HandballTeam::getprice() {

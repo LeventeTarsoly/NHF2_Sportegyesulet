@@ -1,5 +1,6 @@
 #include <limits>
 #include <fstream>
+#include <sstream>
 #include "FootballTeam.h"
 
 void FootballTeam::print() {
@@ -63,14 +64,23 @@ void FootballTeam::modify(){
 int FootballTeam::getprice(){
     std::ifstream File("sponsors.txt");
     std::string line;
-    while (std::getline(File, line)) {
-        char name[50];
-        int supp;
-        std::sscanf(line.c_str(), "%s /%i", name, &supp);
-        String str(name);
-        if(this->getname().cmp(str))
-            return supp;
+    if (!File.is_open()) {
+        throw "file_open_error";
+        return 0;
     }
+
+    while (std::getline(File, line)) {
+        std::string  name;
+        std::string  supp;
+        std::istringstream iss(line);
+        if (std::getline(iss, name, '/') && std::getline(iss, supp, '/'))
+        {
+            String str(name);
+            if (this->getsponsor().cmp(str))
+                return std::stoi(supp);
+        }
+    }
+    File.close();
     return 0;
 }
 
@@ -80,5 +90,5 @@ Team* FootballTeam::clone(){
 }
 
 void FootballTeam::save(std::ofstream& File) {
-    File << "F/" << getname()<<" /"<<getcount()<<"/"<<trainers[0]<<" /"<<trainers[1]<<" /"<<sponsor<<endl;
+    File << "F/" << getname()<<"/"<<getcount()<<"/"<<trainers[0]<<"/"<<trainers[1]<<"/"<<sponsor<<endl;
 }

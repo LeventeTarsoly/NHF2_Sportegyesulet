@@ -1,4 +1,4 @@
-//TODO Test if the files could be opened and read
+//Test if the files could be opened and read
 void filetest();
 
 //Test if the derived classes can be constructed and stored in the heterogenous collection

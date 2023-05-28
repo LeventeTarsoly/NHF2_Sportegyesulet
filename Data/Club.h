@@ -42,7 +42,6 @@ public:
     }
 
     int totalprice();
-
     int totalathletes();
     void save();
 };

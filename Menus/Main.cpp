@@ -5,27 +5,25 @@
 #include "../test.h"
 
 using namespace std;
-//TODO BaseData
+
 inline void BaseData(Club& club){
-    std::cout <<"TODO"<< endl;
-}
-
-void List(Club& club){
-
+    cout << "Total count of Teams: "<<club.length()-2<< endl;
+    cout << "Total cout of athletes"<<club.totalathletes()<< endl;
+    cout << "Total income for the sports club per year:"<<club.totalprice()<< endl;
 }
 
 
 void Mainmenu(Club& club){
-    std::cout << "  _____   _   _     _       ____                           _              ____   _           _     \n"
+    cout << "  _____   _   _     _       ____                           _              ____   _           _     \n"
                  " |  ___| (_) | |_  | |_    / ___|   _ __     ___    _ __  | |_   ___     / ___| | |  _   _  | |__  \n"
                  " | |_    | | | __| | __|   \\___ \\  | '_ \\   / _ \\  | '__| | __| / __|   | |     | | | | | | | '_ \\ \n"
                  " |  _|   | | | |_  | |_     ___) | | |_) | | (_) | | |    | |_  \\__ \\   | |___  | | | |_| | | |_) |\n"
                  " |_|     |_|  \\__|  \\__|   |____/  | .__/   \\___/  |_|     \\__| |___/    \\____| |_|  \\__,_| |_.__/ \n"
-                 "                                   |_|                                                             " << std::endl;
+                 "                                   |_|                                                             " << endl;
     int input=0;
     while (input!=5){
         cout << "1.Manage Teams"<< endl;
-        cout << "2.Lists"<< endl;
+        cout << "2.List of Teams"<< endl;
         cout << "3.Base Data"<< endl;
         cout << "4.Run Tests"<< endl;
         cout << "5.Save and Quit"<< endl;
@@ -39,7 +37,7 @@ void Mainmenu(Club& club){
         switch (input) {
             case 1: Manageteamsmenu(club);
                 break;
-            case 2: List(club);
+            case 2: club.print();
                 break;
             case 3: BaseData(club);
                 break;

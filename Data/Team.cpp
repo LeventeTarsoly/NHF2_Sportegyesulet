@@ -3,7 +3,3 @@
 //
 
 #include "Team.h"
-
-void Team::printname() {
-    std::cout << this->name<<std::endl;
-}

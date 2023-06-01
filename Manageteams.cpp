@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Node* choose(Club& club){
+Node* choose(const Club& club){
     Node* iter = club.gethead()->next;
     int cnt = 1;
     ///kiírja a csapatokat sorszámmal

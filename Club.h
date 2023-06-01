@@ -23,20 +23,29 @@ public:
         tail->prev = head;
         tail->next = nullptr;
     }
-    Node* gethead(){
-        return head;
-    }
     /// Paraméterként adott csapatot hozzáadja a listához
     /// @param d Team pointer a csapatról
     void add(Team* d);
     /// Paraméterként adott listaelemet törli a listáról
     /// @param p listaelem pointer a csapatról
     void pop(Node* p);
-    ///Visszaadja a lista hosszát headdel és taillel együtt
+    ///Visszaadja a lista hosszát head és tail nélkül
     /// @return int hossz
-    int length();
+    int length()const;
     ///Kiírja a lista elemeit sorban
-    void print();
+    void print()const;
+
+    Node* gethead()const{
+        return head;
+    }
+    ///Visszaadja a csapatok évi bevételét
+    /// @return int bevétel
+    int totalprice()const;
+    ///Visszaadja a csapatok tagjainak számát
+    /// @return int
+    int totalathletes()const;
+    ///Fileba menti a csapatokat
+    void save();
 
     ~Club(){
         Node* iter=head;
@@ -47,14 +56,6 @@ public:
             iter = temp;
         }
     }
-    ///Visszaadja a csapatok évi bevételét
-    /// @return int bevétel
-    int totalprice();
-    ///Visszaadja a csapatok tagjainak számát
-    /// @return int
-    int totalathletes();
-    ///Fileba menti a csapatokat
-    void save();
 };
 
 #endif // NHF_SPORTEGYESULET_CLUB_H

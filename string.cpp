@@ -5,6 +5,7 @@
 #include "string.h"
 #include <iostream>
 #include <cstring>
+#include <stdio.h>
 
 using std::cin;
 using std::ios_base;
@@ -103,7 +104,7 @@ String String::operator+(const String& rhs_s) const {
 bool String::cmp(const String &rhs_s) {
     //ellenőrzi a méreteket
     if(size()==rhs_s.size()){
-        for (int i = 0; i < size(); ++i) {
+        for (size_t i = 0; i < size(); ++i) {
             //ellenőrzi karakterenként
             if(pData[i]!=rhs_s[i])
                 return false;

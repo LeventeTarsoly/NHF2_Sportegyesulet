@@ -4,9 +4,9 @@
 
 #include <limits>
 #include "Add.h"
-#include "../Data/FootballTeam.h"
-#include "../Data/BasketballTeam.h"
-#include "../Data/HandballTeam.h"
+#include "FootballTeam.h"
+#include "BasketballTeam.h"
+#include "HandballTeam.h"
 
 using namespace std;
 
@@ -15,9 +15,13 @@ inline void Addfootballteam(Club& club){
     cout << "Name: ";
     String n;
     cin >> n;
+    ///Hibakezelés - ha többet írna, mint egy szó, kitörli
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
     ///Darabszám
     int c;
     cout << "Count: ";
+    ///intes hibakezeéls
     while (!(cin >> c)){
         cout << "Wrong input"<< endl;
         cin.clear();
@@ -29,6 +33,9 @@ inline void Addfootballteam(Club& club){
     cout << "Trainer 1: ";
     cin>>str;
     cin>>temp;
+    ///Hibakezelés - ha többet írna, mint egy szó, kitörli
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
     str=str+" ";
     str=str+temp;
     String str2;
@@ -36,12 +43,18 @@ inline void Addfootballteam(Club& club){
     cout << "Trainer 2: ";
     cin >> str2;
     cin>>temp;
+    ///Hibakezelés - ha többet írna, mint egy szó, kitörli
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
     str2=str2+" ";
     str2=str2+temp;
     String tr[2] {str, str2};
     ///Szponzor
     cout << "Sponsor name: ";
     cin >> str;
+    ///Hibakezelés - ha többet írna, mint egy szó, kitörli
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
     FootballTeam footballTeam(n, c, tr, str);
     club.add(footballTeam.clone());
 }
@@ -51,9 +64,13 @@ inline void Addbasketballteam(Club& club){
     cout << "Name: ";
     String n;
     cin >> n;
+    ///Hibakezelés - ha többet írna, mint egy szó, kitörli
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
     int c;
     ///Darabszám
     cout << "Count: ";
+    ///intes hibakezeéls
     while (!(cin >> c)){
         cout << "Wrong input"<< endl;
         cin.clear();
@@ -62,6 +79,7 @@ inline void Addbasketballteam(Club& club){
     int ppc;
     ///Pompom darabszám
     cout << "Pompom count: ";
+    ///intes hibakezeéls
     while (!(cin >> ppc)){
         cout << "Wrong input"<< endl;
         cin.clear();
@@ -71,6 +89,9 @@ inline void Addbasketballteam(Club& club){
     ///Pompom csapatnév
     cout << "Pompom team name: ";
     cin >> ppn;
+    ///Hibakezelés - ha többet írna, mint egy szó, kitörli
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
     BasketballTeam basketballTeam(n,c,ppc,ppn);
     club.add(basketballTeam.clone());
 }
@@ -80,9 +101,13 @@ inline void Addhandballteam(Club& club){
     cout << "Name: ";
     String n;
     cin >> n;
+    ///Hibakezelés - ha többet írna, mint egy szó, kitörli
+    cin.clear();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
     int c;
     ///Darabszám
     cout << "Count: ";
+    ///intes hibakezelés
     while (!(cin >> c)){
         cout << "Wrong input"<< endl;
         cin.clear();
@@ -91,6 +116,7 @@ inline void Addhandballteam(Club& club){
     int sa;
     ///Támogatás értéke
     cout << "Amount of support: ";
+    ///intes hibakezelés
     while (!(cin >> sa)){
         cout << "Wrong input"<< endl;
         cin.clear();
@@ -99,6 +125,7 @@ inline void Addhandballteam(Club& club){
     int ss;
     ///Támogatás mióta
     cout << "Getting support since: ";
+    ///intes hibakezelés
     while (!(cin >> ss)){
         cout << "Wrong input"<< endl;
         cin.clear();
@@ -116,6 +143,7 @@ void Addmenu(Club& club){
         cout << "3.Add Handball Team"<< endl;
         cout << "4.Back"<< endl;
         cin >> input;
+        ///intes hibakezelés
         while(input>4 || input<1){
             cout << "Wrong input"<< endl;
             cin.clear();

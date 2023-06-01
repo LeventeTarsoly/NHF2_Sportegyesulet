@@ -1,7 +1,7 @@
-#include "Data/FootballTeam.h"
-#include "Data/BasketballTeam.h"
-#include "Data/HandballTeam.h"
-#include "Data/Club.h"
+#include "FootballTeam.h"
+#include "BasketballTeam.h"
+#include "HandballTeam.h"
+#include "Club.h"
 #include "gtest_lite.h"
 #include "files.h"
 
@@ -14,7 +14,7 @@ void filetest(){
     Club club = read();
 
     TEST(filetest, Readtest){
-            EXPECT_DOUBLE_EQ(5, club.length()); ///length
+            EXPECT_DOUBLE_EQ(3, club.length()); ///length
             Node* iter = club.gethead()->next;
 
             EXPECT_STREQ("name", iter->data->getname().c_str());///name
@@ -168,7 +168,7 @@ TEST(classtest, HandballTest){
 }END
 
 TEST(classtest, Clubtest){
-        EXPECT_DOUBLE_EQ(8, club.length()); ///length
+        EXPECT_DOUBLE_EQ(6, club.length()); ///length
         Node* iter = club.gethead()->next;
 
         EXPECT_STREQ("Nike", iter->data->getname().c_str());///name

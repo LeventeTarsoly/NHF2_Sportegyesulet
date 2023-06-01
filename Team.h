@@ -11,10 +11,11 @@ class Team {
     String name;
     int count;
 public:
+    ///Konstruktor
     Team(const String& n, int c) :name(String(n)), count(c) {}
 
     /// Kiírja egy csapat adatait
-    virtual void print()=0;
+    virtual void print()const=0;
     /// Módosítja egy csapat adatait
     virtual void modify()=0;
     /// Létrehoz egy Team pointert egy csapatból, ami behelyezhet? lesz a listába
@@ -25,23 +26,24 @@ public:
     virtual void save(std::ofstream& File)=0;
     /// Visszaadja egy csapat évi bevételét
     /// @return int bevétel
-    virtual int getprice()=0;
-
-    String getname(){
+    virtual int getprice()const=0;
+    ///Név gettere
+    String getname()const{
         return name;
     }
-
-    int getcount() {
+    ///Darabszám gettere
+    int getcount() const{
         return count;
     }
-
-    void setname(String& n){
+    ///Név settere
+    void setname(const String& n){
         this->name=n;
     }
-
-    void setcount(int c) {
+    ///Darabszám settere
+    void setcount(const int c) {
         this->count=c;
     }
+    ///Destruktor
     virtual ~Team() { }
 };
 

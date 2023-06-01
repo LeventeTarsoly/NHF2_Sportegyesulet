@@ -5,45 +5,91 @@ struct Node{
 Team* data
 Node* next
 Node* prev
+Node(Team* d, Node* n, Node* p)
 }
 
 
 abstract class Team {
 -String name
 -int count
++Team(const String& n, int c)
 +{abstract} void print()
-+{abstract} modify()
-+{abstract} bool cmp()
++{abstract} void modify()
 +{abstract} Team* clone()
++{abstract} void save(std::ofstream& File)
++{abstract} int getprice()
++String getname()
++int getcount()
++void setname(String& n)
++void setcount(int c)
++virtual ~Team()
 }
 
 class Club{
 -Node* head
 -Node* tail
++Club()
 +void add(Team* d)
 +void pop(Node* p)
 +void print()
 +int length()
++Node* gethead()
 +int totalprice()
 +int totalathletes()
-+int typeteamcnt()
-+int typeathletecnt()
++void save()
+~Club()
 }
 
 class FootballTeam{
 -String trainers[2]
 -String sponsor
-+int getsupport()
++FootballTeam()
++FootballTeam(String n, int c, String t[2], const String& s)
++void settrainers(String t[2])
++String gettrainer1()
++String gettrainer2()
++String getsponsor()
++void setsponsor(String& s)
++void save(std::ofstream& File)
++void print()
++void modify()
++int getprice()
++Team* clone()
+~FootballTeam()
 }
 
 class BasketballTeam{
 -int pompomCount
 -String pompomName
++BasketballTeam()
++BasketballTeam(String n, int c, int pc, const String& pn)
++void setpompomCount(int c)
++void setpompomName(String& n)
++int getpompomCount()
++String getpompomName()
++void save(std::ofstream& File)
++void print()
++void modify()
++int getprice()
++Team* clone()
+~BasketballTeam()
 }
 
 class HandballTeam{
 -int supportAmount
 -int supportSince
++HandballTeam()
++HandballTeam(String n, int c, int sa, int ss)
++void setsupportAmount(int sa)
++void setsupportSince(int ss)
++int getsupportAmount()
++int getsupportSince()
++void save(std::ofstream& File)
++void print()
++void modify()
++int getprice()
++Team* clone()
+~FootballTeam()
 }
 
 Club *-- Team

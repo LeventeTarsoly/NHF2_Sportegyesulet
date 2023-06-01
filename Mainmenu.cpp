@@ -1,13 +1,13 @@
 #include <limits>
-#include "Main.h"
-#include "../Data/Club.h"
+#include "Mainmenu.h"
+#include "Club.h"
 #include "Manageteams.h"
-#include "../test.h"
+#include "test.h"
 
 using namespace std;
 
-inline void BaseData(Club& club){
-    cout << "Total count of Teams: "<<club.length()-2<< endl;
+inline void BaseData(const Club& club){
+    cout << "Total count of Teams: "<<club.length()<< endl;
     cout << "Total cout of athletes"<<club.totalathletes()<< endl;
     cout << "Total income for the sports club per year:"<<club.totalprice()<< endl;
 }
@@ -28,6 +28,7 @@ void Mainmenu(Club& club){
         cout << "4.Run Tests"<< endl;
         cout << "5.Save and Quit"<< endl;
         cin >> input;
+        ///intes hibakezelés
         while(input>5 || input<1){
             cout << "Wrong input"<< endl;
             cin.clear();

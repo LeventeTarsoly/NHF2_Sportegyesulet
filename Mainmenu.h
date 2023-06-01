@@ -2,20 +2,20 @@
 // Created by Admin on 2023. 05. 06..
 //
 
-#ifndef NHF_SPORTEGYESULET_MAIN_H
-#define NHF_SPORTEGYESULET_MAIN_H
+#ifndef NHF_SPORTEGYESULET_MAINMENU_H
+#define NHF_SPORTEGYESULET_MAINMENU_H
 
 #include <iostream>
 #include <map>
 #include <functional>
-#include "../Data/string.h"
+#include "string.h"
 #include "Add.h"
 #include "Manageteams.h"
-#include "../Data/Club.h"
+#include "Club.h"
 ///Alapadatok kiírása
-inline void BaseData(Club& club);
+inline void BaseData(const Club& club);
 ///F?menü
 void Mainmenu(Club& club);
 
 
-#endif //NHF_SPORTEGYESULET_MAIN_H
+#endif //NHF_SPORTEGYESULET_MAINMENU_H

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <map>
 #include <functional>
-#include "string.h"
+#include "../Data/string.h"
 #include "Add.h"
 ///Csapat módosítása
 inline void Modifyteam(Club& club);

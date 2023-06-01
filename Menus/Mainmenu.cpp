@@ -1,8 +1,8 @@
 #include <limits>
 #include "Mainmenu.h"
-#include "Club.h"
+#include "../Data/Club.h"
 #include "Manageteams.h"
-#include "test.h"
+#include "../test.h"
 
 using namespace std;
 

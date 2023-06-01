@@ -1,10 +1,10 @@
 #include <fstream>
 #include <sstream>
 #include "files.h"
-#include "Club.h"
-#include "FootballTeam.h"
-#include "BasketballTeam.h"
-#include "HandballTeam.h"
+#include "Data/Club.h"
+#include "Data/FootballTeam.h"
+#include "Data/BasketballTeam.h"
+#include "Data/HandballTeam.h"
 
 Club read() {
     ///megnyitja a filet

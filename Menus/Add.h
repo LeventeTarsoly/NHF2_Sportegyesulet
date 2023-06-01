@@ -8,8 +8,8 @@
 #include <iostream>
 #include <map>
 #include <functional>
-#include "string.h"
-#include "Club.h"
+#include "../Data/string.h"
+#include "../Data/Club.h"
 ///Focicsapat hozzáadása
 inline void Addfootballteam(Club& club);
 ///Kosárcsapat hozzáadása

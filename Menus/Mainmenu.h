@@ -8,10 +8,10 @@
 #include <iostream>
 #include <map>
 #include <functional>
-#include "string.h"
+#include "../Data/string.h"
 #include "Add.h"
 #include "Manageteams.h"
-#include "Club.h"
+#include "../Data/Club.h"
 ///Alapadatok kiírása
 inline void BaseData(const Club& club);
 ///F?menü

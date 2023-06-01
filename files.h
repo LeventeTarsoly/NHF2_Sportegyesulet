@@ -5,7 +5,7 @@
 #ifndef NHF_SPORTEGYESULET_FILES_H
 #define NHF_SPORTEGYESULET_FILES_H
 
-#include "Club.h"
+#include "Data/Club.h"
 
 ///Fileb?l beolvasás
 Club read();

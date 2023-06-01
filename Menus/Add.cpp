@@ -4,9 +4,9 @@
 
 #include <limits>
 #include "Add.h"
-#include "FootballTeam.h"
-#include "BasketballTeam.h"
-#include "HandballTeam.h"
+#include "../Data/FootballTeam.h"
+#include "../Data/BasketballTeam.h"
+#include "../Data/HandballTeam.h"
 
 using namespace std;
 

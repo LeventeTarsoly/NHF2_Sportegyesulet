@@ -1,7 +1,7 @@
-#include "FootballTeam.h"
-#include "BasketballTeam.h"
-#include "HandballTeam.h"
-#include "Club.h"
+#include "Data/FootballTeam.h"
+#include "Data/BasketballTeam.h"
+#include "Data/HandballTeam.h"
+#include "Data/Club.h"
 #include "gtest_lite.h"
 #include "files.h"
 

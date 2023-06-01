@@ -1,5 +1,5 @@
-#include "Mainmenu.h"
-#include "Club.h"
+#include "Menus/Mainmenu.h"
+#include "Data/Club.h"
 #include "test.h"
 #include "files.h"
 
